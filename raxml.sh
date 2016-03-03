@@ -10,8 +10,8 @@
 #SBATCH -J MyMPIJob
 
 # Specify an output file
-#SBATCH -o MyMPIJob-%j.out
-#SBATCH -e MyMPIJob-%j.out
+#SBATCH -o /users/jnunez/scratch/phylogenetics/hydroidolina/MyMPIJob-%j.out
+#SBATCH -e /users/jnunez/scratch/phylogenetics/hydroidolina/MyMPIJob-%j.out
 
 # Run a command
 
