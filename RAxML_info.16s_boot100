@@ -1,0 +1,280 @@
+IMPORTANT WARNING: Alignment column 779 contains only undetermined values which will be treated as missing data
+IMPORTANT WARNING: Alignment column 780 contains only undetermined values which will be treated as missing data
+
+IMPORTANT WARNING
+Found 2 columns that contain only undetermined values which will be treated as missing data.
+Normally these columns should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+undetermined columns removed is printed to file 16s.phy.reduced
+
+
+This is RAxML version 8.0.22 released by Alexandros Stamatakis on May 6 2014.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+David Dao         (KIT)
+Charlie Taylor    (UF)
+
+
+Alignment has 687 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 27.15%
+
+RAxML rapid bootstrapping and subsequent ML search
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+
+Executing 100 rapid bootstrap inferences and thereafter a thorough ML search 
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 687
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/gpfs/runtime/opt/raxml/8.0.22/avx/bin/raxmlHPC-MPI -f a -x 12345 -p 12345 -N 100 -m GTRGAMMA -s 16s.phy -n 16s_boot100 
+
+
+
+Time for BS model parameter optimization on Process 5: 3.497413 seconds
+
+Time for BS model parameter optimization on Process 4: 3.506228 seconds
+
+Time for BS model parameter optimization on Process 0: 3.543089 seconds
+
+Time for BS model parameter optimization on Process 6: 3.616730 seconds
+
+Time for BS model parameter optimization on Process 3: 3.619877 seconds
+
+Time for BS model parameter optimization on Process 1: 3.695578 seconds
+
+Time for BS model parameter optimization on Process 2: 3.712251 seconds
+
+Time for BS model parameter optimization on Process 7: 3.751990 seconds
+Bootstrap[13]: Time 7.777200 seconds, bootstrap likelihood -22945.831407, best rearrangement setting 12
+Bootstrap[52]: Time 7.929819 seconds, bootstrap likelihood -22142.826887, best rearrangement setting 8
+Bootstrap[78]: Time 7.988972 seconds, bootstrap likelihood -23446.656985, best rearrangement setting 5
+Bootstrap[65]: Time 8.123422 seconds, bootstrap likelihood -23180.412361, best rearrangement setting 6
+Bootstrap[39]: Time 8.242847 seconds, bootstrap likelihood -23087.905624, best rearrangement setting 9
+Bootstrap[91]: Time 8.309047 seconds, bootstrap likelihood -23784.589189, best rearrangement setting 15
+Bootstrap[26]: Time 8.441327 seconds, bootstrap likelihood -20869.986720, best rearrangement setting 10
+Bootstrap[0]: Time 8.728575 seconds, bootstrap likelihood -23682.149533, best rearrangement setting 13
+Bootstrap[14]: Time 3.866159 seconds, bootstrap likelihood -22277.502931, best rearrangement setting 13
+Bootstrap[92]: Time 3.945510 seconds, bootstrap likelihood -22992.886685, best rearrangement setting 5
+Bootstrap[53]: Time 4.754521 seconds, bootstrap likelihood -23689.024910, best rearrangement setting 14
+Bootstrap[40]: Time 4.624151 seconds, bootstrap likelihood -24083.412839, best rearrangement setting 14
+Bootstrap[66]: Time 4.799998 seconds, bootstrap likelihood -22556.200757, best rearrangement setting 15
+Bootstrap[27]: Time 4.487561 seconds, bootstrap likelihood -22316.970716, best rearrangement setting 13
+Bootstrap[79]: Time 5.047405 seconds, bootstrap likelihood -23091.598921, best rearrangement setting 15
+Bootstrap[1]: Time 4.663946 seconds, bootstrap likelihood -25096.751160, best rearrangement setting 13
+Bootstrap[54]: Time 3.794074 seconds, bootstrap likelihood -22491.476505, best rearrangement setting 5
+Bootstrap[15]: Time 4.858462 seconds, bootstrap likelihood -24542.447690, best rearrangement setting 13
+Bootstrap[67]: Time 3.658208 seconds, bootstrap likelihood -22003.623919, best rearrangement setting 6
+Bootstrap[80]: Time 3.829073 seconds, bootstrap likelihood -23377.140184, best rearrangement setting 7
+Bootstrap[93]: Time 4.787684 seconds, bootstrap likelihood -23895.749442, best rearrangement setting 8
+Bootstrap[28]: Time 4.551684 seconds, bootstrap likelihood -22500.961518, best rearrangement setting 14
+Bootstrap[41]: Time 5.167766 seconds, bootstrap likelihood -23451.473573, best rearrangement setting 15
+Bootstrap[2]: Time 4.648425 seconds, bootstrap likelihood -23611.379554, best rearrangement setting 12
+Bootstrap[55]: Time 3.990487 seconds, bootstrap likelihood -23739.421497, best rearrangement setting 11
+Bootstrap[16]: Time 4.085356 seconds, bootstrap likelihood -22597.831708, best rearrangement setting 6
+Bootstrap[94]: Time 4.321721 seconds, bootstrap likelihood -22894.779794, best rearrangement setting 6
+Bootstrap[29]: Time 4.105551 seconds, bootstrap likelihood -22465.529111, best rearrangement setting 8
+Bootstrap[68]: Time 5.281695 seconds, bootstrap likelihood -23472.115143, best rearrangement setting 13
+Bootstrap[81]: Time 5.171386 seconds, bootstrap likelihood -23779.766706, best rearrangement setting 15
+Bootstrap[42]: Time 4.276026 seconds, bootstrap likelihood -22116.360087, best rearrangement setting 10
+Bootstrap[3]: Time 4.454687 seconds, bootstrap likelihood -22790.357258, best rearrangement setting 15
+Bootstrap[56]: Time 3.794297 seconds, bootstrap likelihood -23509.705251, best rearrangement setting 6
+Bootstrap[17]: Time 4.427619 seconds, bootstrap likelihood -23346.073573, best rearrangement setting 7
+Bootstrap[95]: Time 3.870542 seconds, bootstrap likelihood -22617.338978, best rearrangement setting 6
+Bootstrap[30]: Time 4.687625 seconds, bootstrap likelihood -23977.632632, best rearrangement setting 14
+Bootstrap[69]: Time 4.680745 seconds, bootstrap likelihood -22492.024953, best rearrangement setting 14
+Bootstrap[43]: Time 4.468943 seconds, bootstrap likelihood -22576.329115, best rearrangement setting 10
+Bootstrap[4]: Time 4.537199 seconds, bootstrap likelihood -22209.643311, best rearrangement setting 10
+Bootstrap[82]: Time 5.473796 seconds, bootstrap likelihood -23834.433151, best rearrangement setting 10
+Bootstrap[57]: Time 3.989251 seconds, bootstrap likelihood -23151.607413, best rearrangement setting 15
+Bootstrap[96]: Time 4.648509 seconds, bootstrap likelihood -23801.302802, best rearrangement setting 7
+Bootstrap[18]: Time 5.217492 seconds, bootstrap likelihood -22739.556130, best rearrangement setting 11
+Bootstrap[70]: Time 4.238823 seconds, bootstrap likelihood -23306.133970, best rearrangement setting 5
+Bootstrap[31]: Time 4.739633 seconds, bootstrap likelihood -23225.161652, best rearrangement setting 12
+Bootstrap[44]: Time 4.907121 seconds, bootstrap likelihood -23677.194345, best rearrangement setting 13
+Bootstrap[83]: Time 4.394260 seconds, bootstrap likelihood -22766.647482, best rearrangement setting 6
+Bootstrap[5]: Time 5.017056 seconds, bootstrap likelihood -23823.883301, best rearrangement setting 10
+Bootstrap[58]: Time 4.751388 seconds, bootstrap likelihood -21774.590086, best rearrangement setting 11
+Bootstrap[97]: Time 4.781040 seconds, bootstrap likelihood -22685.168782, best rearrangement setting 13
+Bootstrap[71]: Time 4.082820 seconds, bootstrap likelihood -21754.579513, best rearrangement setting 5
+Bootstrap[19]: Time 5.028801 seconds, bootstrap likelihood -23892.961657, best rearrangement setting 10
+Bootstrap[45]: Time 4.032800 seconds, bootstrap likelihood -23699.882975, best rearrangement setting 7
+Bootstrap[32]: Time 5.263105 seconds, bootstrap likelihood -23390.548591, best rearrangement setting 14
+Bootstrap[6]: Time 4.392218 seconds, bootstrap likelihood -23678.420504, best rearrangement setting 6
+Bootstrap[84]: Time 4.551720 seconds, bootstrap likelihood -21544.004143, best rearrangement setting 9
+Bootstrap[59]: Time 3.859204 seconds, bootstrap likelihood -23024.719574, best rearrangement setting 5
+Bootstrap[98]: Time 4.673815 seconds, bootstrap likelihood -22907.613831, best rearrangement setting 11
+Bootstrap[72]: Time 4.908322 seconds, bootstrap likelihood -23307.231630, best rearrangement setting 11
+Bootstrap[20]: Time 4.943908 seconds, bootstrap likelihood -23449.540386, best rearrangement setting 9
+Bootstrap[85]: Time 3.838237 seconds, bootstrap likelihood -22987.632789, best rearrangement setting 5
+Bootstrap[7]: Time 4.125362 seconds, bootstrap likelihood -23090.332921, best rearrangement setting 14
+Bootstrap[46]: Time 4.974041 seconds, bootstrap likelihood -23287.758626, best rearrangement setting 10
+Bootstrap[60]: Time 4.504617 seconds, bootstrap likelihood -23371.967113, best rearrangement setting 12
+Bootstrap[33]: Time 5.136463 seconds, bootstrap likelihood -24794.396450, best rearrangement setting 15
+Bootstrap[99]: Time 3.835610 seconds, bootstrap likelihood -22133.212585, best rearrangement setting 6
+Bootstrap[21]: Time 4.281195 seconds, bootstrap likelihood -22863.255534, best rearrangement setting 7
+Bootstrap[47]: Time 4.062083 seconds, bootstrap likelihood -22374.271805, best rearrangement setting 10
+Bootstrap[8]: Time 4.261225 seconds, bootstrap likelihood -22836.215564, best rearrangement setting 5
+Bootstrap[73]: Time 5.082577 seconds, bootstrap likelihood -23142.759983, best rearrangement setting 14
+Bootstrap[86]: Time 5.112898 seconds, bootstrap likelihood -23016.381455, best rearrangement setting 15
+Bootstrap[34]: Time 3.997685 seconds, bootstrap likelihood -22231.000837, best rearrangement setting 9
+Bootstrap[61]: Time 4.216835 seconds, bootstrap likelihood -22489.233475, best rearrangement setting 6
+Bootstrap[100]: Time 4.059746 seconds, bootstrap likelihood -23785.539611, best rearrangement setting 11
+Bootstrap[48]: Time 3.956099 seconds, bootstrap likelihood -22593.989453, best rearrangement setting 12
+Bootstrap[9]: Time 4.127346 seconds, bootstrap likelihood -23764.777264, best rearrangement setting 7
+Bootstrap[74]: Time 4.182537 seconds, bootstrap likelihood -23288.428414, best rearrangement setting 11
+Bootstrap[22]: Time 4.694124 seconds, bootstrap likelihood -22239.986200, best rearrangement setting 12
+Bootstrap[35]: Time 4.079186 seconds, bootstrap likelihood -23992.023471, best rearrangement setting 6
+Bootstrap[87]: Time 4.493047 seconds, bootstrap likelihood -24372.648222, best rearrangement setting 6
+Bootstrap[62]: Time 4.437400 seconds, bootstrap likelihood -24574.269063, best rearrangement setting 7
+Bootstrap[101]: Time 4.011136 seconds, bootstrap likelihood -23010.700734, best rearrangement setting 5
+Bootstrap[49]: Time 4.018703 seconds, bootstrap likelihood -21895.146502, best rearrangement setting 5
+Bootstrap[10]: Time 4.331018 seconds, bootstrap likelihood -23729.346790, best rearrangement setting 7
+Bootstrap[23]: Time 4.459803 seconds, bootstrap likelihood -23411.043989, best rearrangement setting 10
+Bootstrap[63]: Time 3.903259 seconds, bootstrap likelihood -22965.085343, best rearrangement setting 10
+Bootstrap[36]: Time 4.477889 seconds, bootstrap likelihood -23234.383018, best rearrangement setting 13
+Bootstrap[75]: Time 4.990988 seconds, bootstrap likelihood -23499.123047, best rearrangement setting 10
+Bootstrap[88]: Time 4.162849 seconds, bootstrap likelihood -23077.385820, best rearrangement setting 13
+Bootstrap[102]: Time 4.768138 seconds, bootstrap likelihood -24193.844029, best rearrangement setting 14
+Bootstrap[50]: Time 4.576623 seconds, bootstrap likelihood -23306.424256, best rearrangement setting 9
+Bootstrap[11]: Time 4.117407 seconds, bootstrap likelihood -23588.373788, best rearrangement setting 5
+Bootstrap[24]: Time 4.632401 seconds, bootstrap likelihood -23947.678196, best rearrangement setting 6
+Bootstrap[76]: Time 4.326650 seconds, bootstrap likelihood -22954.001818, best rearrangement setting 11
+Bootstrap[37]: Time 4.589753 seconds, bootstrap likelihood -23476.020581, best rearrangement setting 7
+Bootstrap[89]: Time 4.644269 seconds, bootstrap likelihood -21616.189264, best rearrangement setting 13
+Bootstrap[64]: Time 4.886000 seconds, bootstrap likelihood -22188.216118, best rearrangement setting 13
+Bootstrap[51]: Time 4.243922 seconds, bootstrap likelihood -23171.081755, best rearrangement setting 7
+Bootstrap[103]: Time 5.677103 seconds, bootstrap likelihood -22411.559239, best rearrangement setting 12
+Bootstrap[38]: Time 3.688390 seconds, bootstrap likelihood -22482.445331, best rearrangement setting 11
+Bootstrap[12]: Time 4.915132 seconds, bootstrap likelihood -23711.934648, best rearrangement setting 8
+Bootstrap[25]: Time 4.271683 seconds, bootstrap likelihood -23348.388347, best rearrangement setting 15
+Bootstrap[77]: Time 4.632605 seconds, bootstrap likelihood -24852.838834, best rearrangement setting 9
+Bootstrap[90]: Time 4.373927 seconds, bootstrap likelihood -23289.316965, best rearrangement setting 5
+
+
+Overall Time for 104 Rapid Bootstraps 63.133613 seconds
+Average Time per Rapid Bootstrap 0.607054 seconds
+
+Starting ML Search ...
+
+Fast ML optimization finished
+
+Fast ML search on Process 0: Time 124.196627 seconds
+
+Fast ML search on Process 4: Time 127.980227 seconds
+
+Fast ML search on Process 6: Time 134.982271 seconds
+
+Fast ML search on Process 5: Time 135.335832 seconds
+
+Fast ML search on Process 2: Time 139.419630 seconds
+
+Fast ML search on Process 1: Time 153.503440 seconds
+
+Fast ML search on Process 3: Time 160.583112 seconds
+
+Fast ML search on Process 7: Time 187.672020 seconds
+
+Slow ML Search 78 Likelihood: -23202.960983
+Slow ML Search 79 Likelihood: -23202.960837
+Slow ML search on Process 6: Time 73.814816 seconds
+Slow ML Search 0 Likelihood: -23202.909598
+Slow ML Search 1 Likelihood: -23204.571322
+Slow ML optimization finished
+
+Slow ML search on Process 0: Time 96.490891 seconds
+Slow ML Search 26 Likelihood: -23203.768889
+Slow ML Search 27 Likelihood: -23206.893604
+Slow ML search on Process 2: Time 87.232571 seconds
+Slow ML Search 39 Likelihood: -23202.960954
+Slow ML Search 40 Likelihood: -23203.349838
+Slow ML search on Process 3: Time 69.658843 seconds
+Slow ML Search 52 Likelihood: -23203.108338
+Slow ML Search 53 Likelihood: -23205.871858
+Slow ML search on Process 4: Time 102.905763 seconds
+Slow ML Search 13 Likelihood: -23202.942099
+Slow ML Search 14 Likelihood: -23203.829743
+Slow ML search on Process 1: Time 81.016861 seconds
+Thorough ML search on Process 6: Time 39.229697 seconds
+Slow ML Search 65 Likelihood: -23203.097768
+Slow ML Search 66 Likelihood: -23203.483978
+Slow ML search on Process 5: Time 120.680161 seconds
+Thorough ML search on Process 0: Time 36.862914 seconds
+Thorough ML search on Process 2: Time 39.822192 seconds
+Slow ML Search 91 Likelihood: -23202.943631
+Slow ML Search 92 Likelihood: -23203.655780
+Slow ML search on Process 7: Time 79.914620 seconds
+Thorough ML search on Process 4: Time 38.896001 seconds
+Thorough ML search on Process 3: Time 39.777339 seconds
+Thorough ML search on Process 1: Time 39.418951 seconds
+Thorough ML search on Process 5: Time 38.605360 seconds
+Thorough ML search on Process 7: Time 39.586487 seconds
+
+Final ML Optimization Likelihood: -23202.751059
+
+Model Information:
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.462131
+Tree-Length: 28.782680
+rate A <-> C: 1.749918
+rate A <-> G: 6.177202
+rate A <-> T: 3.800691
+rate C <-> G: 0.685706
+rate C <-> T: 11.188630
+rate G <-> T: 1.000000
+
+freq pi(A): 0.396763
+freq pi(C): 0.124418
+freq pi(G): 0.157227
+freq pi(T): 0.321593
+
+
+ML search took 307.175851 secs or 0.085327 hours
+
+Combined Bootstrap and ML search took 370.309504 secs or 0.102864 hours
+
+Drawing Bootstrap Support Values on best-scoring ML tree ...
+
+
+
+Found 1 tree in File /gpfs/scratch/guest310/hydroidolina/RAxML_bestTree.16s_boot100
+
+
+
+Found 1 tree in File /gpfs/scratch/guest310/hydroidolina/RAxML_bestTree.16s_boot100
+
+Program execution info written to /gpfs/scratch/guest310/hydroidolina/RAxML_info.16s_boot100
+All 104 bootstrapped trees written to: /gpfs/scratch/guest310/hydroidolina/RAxML_bootstrap.16s_boot100
+
+Best-scoring ML tree written to: /gpfs/scratch/guest310/hydroidolina/RAxML_bestTree.16s_boot100
+
+Best-scoring ML tree with support values written to: /gpfs/scratch/guest310/hydroidolina/RAxML_bipartitions.16s_boot100
+
+Best-scoring ML tree with support values as branch labels written to: /gpfs/scratch/guest310/hydroidolina/RAxML_bipartitionsBranchLabels.16s_boot100
+
+Overall execution time for full ML analysis: 370.318285 secs or 0.102866 hours or 0.004286 days
+
