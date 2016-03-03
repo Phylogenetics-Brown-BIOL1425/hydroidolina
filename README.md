@@ -114,8 +114,14 @@ Questions:
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
 
+   Clearly not, there are regions with much more incongruence between species than others, while some regions are composed of straight uniform lines of base type.
+
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+
+   18s also looks very conseved, I say it has the slowest rate of molecular evolution.
+   28s looks very uniform in many regions, but it has more variability than 18s.
+   16s has more overall variation between species, which suggests it is the gene with the highest evolutionary rates.
 
 ### Create concatenated alignments
 
