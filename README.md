@@ -155,17 +155,30 @@ Once the run is complete (you can check the status with `myq`), add the new file
 
 Questions:
 
-1 - Do the trees differ from those published? If so, how?
+#1 - Do the trees differ from those published? If so, how?
+
+###Combined Tree:
+
+Both the published and the generated trees seem to agree on the reconstruction of the groups, *i.e.* Trachylina, Capitata, Aplanulata, Filifera I, II, III and IV, Siphonophora and Leptothecata (Figure 1).Regagardin the produced tree, all these groups show high branch support close the bifurcations leading to the tips. However, bootstrap support dwindles away from the tips on the branches whithin the major splits of the Filifera groups (Figure 2) 
+
+A major discordancy between the published and recently produced tree occurs in the placement of the Aplanulata clade with respect to the Filifera clades. In the published paper, Aplanulata is nested as sister taxa to Filifera II. In the produced tree, Aplanulata is sister taxa to the Filifera/Siphonophora/Leptothecata clade. The branch leading to this split has a suppport of 75 (Figures 1 & 2). 
+
+Please note that the tree prodiced in this exersice has been rooted using tehbranch leading to Trachylina in order to compare it to the published tree. 
 
 
-![Figure 1. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png "Figure 1 2016 phylogeny - combined")
+![Figure 1. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.png "Figure 1 2016 phylogeny - combined - with groups collapsed")
+**Figure 1:2016 phylogeny - combined - with groups collapsed. In this and further figures, Olive = Trachylina, Teal = Capitata, Brown = Aplanulata, Green = Filera I, Maroon = Filifera II, Purple = Filifera IV, Orange = Filifera III, Blue = Siphonophora, Salmon = Leptothecata**
 
-![Figure 2. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.png "Figure 3 2016 phylogeny - combined - with groups collapsed")
+![Figure 2. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png "Figure 2 2016 phylogeny - combined showing all branches")
+**Figure 2:2016 phylogeny - combined showing all branches**
+
+####No gene trees were published in the paper.
+
+
+
+#2 - How do the trees for each gene differ from each other?
 
 
 
 
-2 - How do the trees for each gene differ from each other?
-
-3 - Take a look at the raxml log files. What do these tells you about the 
-   different models of molecular evolution for the four analyses?
+#3 - Take a look at the raxml log files. What do these tells you about the different models of molecular evolution for the four analyses?
