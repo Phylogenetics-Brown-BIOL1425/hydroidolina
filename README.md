@@ -209,7 +209,6 @@ Compared to each other, clades Siphonophora, Leptothecata, Capitata, Filifera II
 
 **Notes on Parameters in raxml log:**
 
-###For Combined Tree:
 
 All free model parameters will be estimated by RAxML
 GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
@@ -235,5 +234,6 @@ Substitution Matrix: GTR
 
 **Table: 1 parameters of each raxml run**
 
-##Summary 
+###Summary 
+
 All phylogenies were estimated using the GTR-GAMMA model. However, for each individual phylogeny, raxml estimated parameters for each individual run (Table 1). An interesting observation is that the rate G <-> T is equal in all runs. 
