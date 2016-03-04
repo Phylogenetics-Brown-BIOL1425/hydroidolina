@@ -172,15 +172,37 @@ Please note that the tree prodiced in this exersice has been rooted using tehbra
 ![Figure 2. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png "Figure 2 2016 phylogeny - combined showing all branches")
 **Figure 2: 2016 phylogeny - combined showing all branches**
 
-####No gene trees were published in the paper.
+###16s Tree:
 
+Compared to the publsihed tree, only the Trachylina, Capitata and Aplanulata are reconstructed as clades. All other clades  are not reconstructed (Figure 3A).
+
+###18s Tree:
+
+Compared to the publsihed tree, the 18s ribosomal gene tree reconstruct the clades: Siphonophora, Leptothecata, Trachylina, and Filifera III (Figure 3B). 
+
+###28s Tree:
+
+Compared to the publsihed tree, the 28s ribosomal gene tree reconstructs most clades exept, Filifera IV (Figure 3C). It is the most similar to the published compound tree.  
 
 
 #2 - How do the trees for each gene differ from each other?
 
-Figure 3 shows all gene trees generated in this assigment. 
+Gene trees for 16s, 18s and 28s ribodsomal genes were generated in this assigment (Figure 3). With the exeption of the taxon used to re-root the tree (Trachylina), no clade is reconstructed across the three gene trees. 
+
+###16s and 18s 
+
+Compared to each other, no clade is consistently reconstructed (Fig 3A and 3B). 
+
+###16s and 28s 
+
+Compared to each other, only the clade Filifera I is reconstructed. 
+
+###18s and 28s 
+
+Compared to each other, clades Siphonophora, Leptothecata, Capitata, Filifera III, and Aplanulata are reconstructed. These two trees are more similar to each other than to 16s. 
+
 
 ![Figure 3. Gene trees](https://rawgit.com/Jcbnunez/hydroidolina/master/gene_trees.png "Figure 3 2016 Gene Trees")
-**Figure 3: 2016 phylogeny - combined showing all branches**
+**Figure 3: All gene trees of A = 16s, B = 18s and C = 28s.**
 
 #3 - Take a look at the raxml log files. What do these tells you about the different models of molecular evolution for the four analyses?
