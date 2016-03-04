@@ -195,14 +195,94 @@ Compared to each other, no clade is consistently reconstructed (Fig 3A and 3B).
 
 ###16s and 28s 
 
-Compared to each other, only the clade Filifera I is reconstructed. 
+Compared to each other, only the clade Filifera I is reconstructed (Fig 3A and 3C). 
 
 ###18s and 28s 
 
-Compared to each other, clades Siphonophora, Leptothecata, Capitata, Filifera III, and Aplanulata are reconstructed. These two trees are more similar to each other than to 16s. 
+Compared to each other, clades Siphonophora, Leptothecata, Capitata, Filifera III, and Aplanulata are reconstructed. These two trees are more similar to each other than to 16s (Fig 3B and 3C). 
 
 
 ![Figure 3. Gene trees](https://rawgit.com/Jcbnunez/hydroidolina/master/gene_trees.png "Figure 3 2016 Gene Trees")
 **Figure 3: All gene trees of A = 16s, B = 18s and C = 28s.**
 
 #3 - Take a look at the raxml log files. What do these tells you about the different models of molecular evolution for the four analyses?
+
+**Notes on Parameters in raxml log:**
+
+###For Combined Tree:
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Substitution Matrix: GTR
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.253321
+Tree-Length: 8.219909
+rate A <-> C: 0.806800
+rate A <-> G: 2.608071
+rate A <-> T: 1.911118
+rate C <-> G: 0.900656
+rate C <-> T: 5.287369
+rate G <-> T: 1.000000
+
+freq pi(A): 0.277945
+freq pi(C): 0.195911
+freq pi(G): 0.264600
+freq pi(T): 0.261544
+
+###For 16s Tree:
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.462090
+Tree-Length: 28.790199
+rate A <-> C: 1.749154
+rate A <-> G: 6.174722
+rate A <-> T: 3.799152
+rate C <-> G: 0.685110
+rate C <-> T: 11.183511
+rate G <-> T: 1.000000
+
+freq pi(A): 0.396763
+freq pi(C): 0.124418
+freq pi(G): 0.157227
+freq pi(T): 0.321593
+
+###For 18s Tree:
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.201546
+Tree-Length: 3.716563
+rate A <-> C: 1.391922
+rate A <-> G: 2.947877
+rate A <-> T: 1.282143
+rate C <-> G: 0.986484
+rate C <-> T: 6.546998
+rate G <-> T: 1.000000
+
+freq pi(A): 0.269513
+freq pi(C): 0.194606
+freq pi(G): 0.260255
+freq pi(T): 0.275625
+
+###For 28s Tree:
+
+Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
+alpha: 0.238754
+Tree-Length: 8.264010
+rate A <-> C: 0.574413
+rate A <-> G: 2.072312
+rate A <-> T: 0.667600
+rate C <-> G: 0.724368
+rate C <-> T: 4.551401
+rate G <-> T: 1.000000
+
+freq pi(A): 0.263767
+freq pi(C): 0.207798
+freq pi(G): 0.283709
+freq pi(T): 0.244726
+
+##Summary 
+In general, 
