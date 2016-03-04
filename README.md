@@ -155,9 +155,16 @@ Once the run is complete (you can check the status with `myq`), add the new file
 
 Questions:
 
-1. Do the trees differ from those published? If so, how?
+1 - Do the trees differ from those published? If so, how?
 
-2. How do the trees for each gene differ from each other?
+![Figure 1. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.pdf)
 
-3. Take a look at the raxml log files. What do these tells you about the 
+![Figure 2. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.pdf)
+
+
+
+
+2 - How do the trees for each gene differ from each other?
+
+3 - Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
