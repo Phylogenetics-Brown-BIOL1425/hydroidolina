@@ -109,13 +109,17 @@ file with mafft and inspect it again.
 
 You should now have five files for each gene, eg `28s.raw.fasta`, `28s.fasta`, `28s.aligned.fasta`, `28s.nex` and `28s.phy`.
 
-Questions:
+#Questions:
 
-1. Based on eye-balling the alignments, do you think that each gene has a 
-   consistent rate of molecular evolution along its full length?
+1. **Based on eye-balling the alignments, do you think that each gene has a 
+   consistent rate of molecular evolution along its full length?**
+   
+   None of the genes seem to have a truly consistent rate of evolution thought the entirety of the molecule. This seems to be a reflection of the biology of these genes. Since RNA genes have tri-dimensional structures some regions will have stronger functional contraints than others. 
 
-2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
-   the fastest average rate of molecular evolution? The slowest?
+2. **Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
+   the fastest average rate of molecular evolution? The slowest?**
+   
+   The 16S gene seems to have a very fast rate of molecular evolution, given the high rate of indels and mismatch among species. Both 18S and 28S seem to have a slow rate of molecular evolution, it seems to me (i.e. eye balling), that 28S has the slowest rate of evolution. 
 
 ### Create concatenated alignments
 
