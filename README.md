@@ -167,10 +167,10 @@ Please note that the tree prodiced in this exersice has been rooted using tehbra
 
 
 ![Figure 1. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.png "Figure 1 2016 phylogeny - combined - with groups collapsed")
-**Figure 1:2016 phylogeny - combined - with groups collapsed. In this and further figures, Olive = Trachylina, Teal = Capitata, Brown = Aplanulata, Green = Filera I, Maroon = Filifera II, Purple = Filifera IV, Orange = Filifera III, Blue = Siphonophora, Salmon = Leptothecata**
+**Figure 1: 2016 phylogeny - combined - with groups collapsed. In this and further figures, Olive = Trachylina, Teal = Capitata, Brown = Aplanulata, Green = Filera I, Maroon = Filifera II, Purple = Filifera IV, Orange = Filifera III, Blue = Siphonophora, Salmon = Leptothecata**
 
 ![Figure 2. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png "Figure 2 2016 phylogeny - combined showing all branches")
-**Figure 2:2016 phylogeny - combined showing all branches**
+**Figure 2: 2016 phylogeny - combined showing all branches**
 
 ####No gene trees were published in the paper.
 
@@ -178,7 +178,9 @@ Please note that the tree prodiced in this exersice has been rooted using tehbra
 
 #2 - How do the trees for each gene differ from each other?
 
+Figure 3 shows all gene trees generated in this assigment. 
 
-
+![Figure 3. Gene trees](https://rawgit.com/Jcbnunez/hydroidolina/master/gene_trees.png "Figure 3 2016 Gene Trees")
+**Figure 3: 2016 phylogeny - combined showing all branches**
 
 #3 - Take a look at the raxml log files. What do these tells you about the different models of molecular evolution for the four analyses?
