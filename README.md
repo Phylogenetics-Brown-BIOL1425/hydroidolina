@@ -114,7 +114,7 @@ You should now have five files for each gene, eg `28s.raw.fasta`, `28s.fasta`, `
 1. **Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?**
    
-   None of the genes seem to have a truly consistent rate of evolution thought the entirety of the molecule. This seems to be a reflection of the biology of these genes. Since RNA genes have tri-dimensional structures some regions will have stronger functional contraints than others. 
+   None of the genes seem to have a truly consistent rate of evolution throughout the entirety of the molecule. This seems to be a reflection of the biology of these genes. Since RNA genes have tri-dimensional structures some regions will have stronger functional contraints than others. 
 
 2. **Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?**
