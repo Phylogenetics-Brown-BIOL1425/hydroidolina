@@ -218,71 +218,22 @@ GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log L
 
 Substitution Matrix: GTR
 
-Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
-alpha: 0.253321
-Tree-Length: 8.219909
-rate A <-> C: 0.806800
-rate A <-> G: 2.608071
-rate A <-> T: 1.911118
-rate C <-> G: 0.900656
-rate C <-> T: 5.287369
-rate G <-> T: 1.000000
+| Parameter    | Combined | 16s       | 18s      | 28s      |
+|--------------|----------|-----------|----------|----------|
+| alpha        | 0.253321 | 0.46209   | 0.201546 | 0.238754 |
+| Tree-Length  | 8.219909 | 28.790199 | 3.716563 | 8.26401  |
+| rate A <-> C | 0.8068   | 1.749154  | 1.391922 | 0.574413 |
+| rate A <-> G | 2.608071 | 6.174722  | 2.947877 | 2.072312 |
+| rate A <-> T | 1.911118 | 3.799152  | 1.282143 | 0.6676   |
+| rate C <-> G | 0.900656 | 0.68511   | 0.986484 | 0.724368 |
+| rate C <-> T | 5.287369 | 11.183511 | 6.546998 | 4.551401 |
+| rate G <-> T | 1        | 1         | 1        | 1        |
+| freq pi(A)   | 0.277945 | 0.396763  | 0.269513 | 0.263767 |
+| freq pi(C)   | 0.195911 | 0.124418  | 0.194606 | 0.207798 |
+| freq pi(G)   | 0.2646   | 0.157227  | 0.260255 | 0.283709 |
+| freq pi(T)   | 0.261544 | 0.321593  | 0.275625 | 0.244726 |
 
-freq pi(A): 0.277945
-freq pi(C): 0.195911
-freq pi(G): 0.264600
-freq pi(T): 0.261544
-
-###For 16s Tree:
-
-Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
-alpha: 0.462090
-Tree-Length: 28.790199
-rate A <-> C: 1.749154
-rate A <-> G: 6.174722
-rate A <-> T: 3.799152
-rate C <-> G: 0.685110
-rate C <-> T: 11.183511
-rate G <-> T: 1.000000
-
-freq pi(A): 0.396763
-freq pi(C): 0.124418
-freq pi(G): 0.157227
-freq pi(T): 0.321593
-
-###For 18s Tree:
-
-Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
-alpha: 0.201546
-Tree-Length: 3.716563
-rate A <-> C: 1.391922
-rate A <-> G: 2.947877
-rate A <-> T: 1.282143
-rate C <-> G: 0.986484
-rate C <-> T: 6.546998
-rate G <-> T: 1.000000
-
-freq pi(A): 0.269513
-freq pi(C): 0.194606
-freq pi(G): 0.260255
-freq pi(T): 0.275625
-
-###For 28s Tree:
-
-Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
-alpha: 0.238754
-Tree-Length: 8.264010
-rate A <-> C: 0.574413
-rate A <-> G: 2.072312
-rate A <-> T: 0.667600
-rate C <-> G: 0.724368
-rate C <-> T: 4.551401
-rate G <-> T: 1.000000
-
-freq pi(A): 0.263767
-freq pi(C): 0.207798
-freq pi(G): 0.283709
-freq pi(T): 0.244726
+**Table: 1 parameters of each raxml run**
 
 ##Summary 
-In general, 
+All phylogenies were estimated using the GTR-GAMMA model. However, for each individual phylogeny, raxml estimated parameters for each individual run (Table 1). An interesting observation is that the rate G <-> T is equal in all runs. 
