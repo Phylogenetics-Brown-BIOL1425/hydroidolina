@@ -158,9 +158,9 @@ Questions:
 1 - Do the trees differ from those published? If so, how?
 
 
-![Figure 1. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png)
+![Figure 1. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png "Figure 1 2016 phylogeny - combined")
 
-![Figure 2. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.png)
+![Figure 2. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.png "Figure 3 2016 phylogeny - combined - with groups collapsed")
 
 
 
