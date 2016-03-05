@@ -113,9 +113,13 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
+	
+	It seems unlikely that each gene has a consistent rate of molecular evolution along its length. Each of the three genes display regions of relative stability (in which most taxa have the same base at a particular locus), and regions in which loci have variable base among taxa. I interpret the stable regions to represent regions of slow molecular evolution (so different taxa have similar character states), and variable regions to represent those with rapid molecular evolution (causing taxa to differ markedly). Since both types of region are found in each gene, I find the idea that they have consistent rates of molecular evolution unlikely.
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+
+	Using the approximate ratio of variable sites to stable sites as a proxy for rate of molecular evolution, I would identify 16S as the gene with the fastest average rate of molecular evolution, and 18S as the gene with the slowest average rate of molecular evolution. In 16S, stable sites are rare relative to variable sites; the reverse is true in 18S. 28S seems to have approximately even numbers of variable and stable sites, and thus likely has an intermediate rate of molecular evolution. 
 
 ### Create concatenated alignments
 
