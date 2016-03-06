@@ -163,5 +163,7 @@ Questions:
 
 2. How do the trees for each gene differ from each other?
 
+	The topologies of the gene trees differ markedly from each other. While all tree have polytomys at their base, they disagree on which taxa are most basal. The 16s tree shows a polytomy at the divergence of Clava multicornis, Podocoryna exigua, and the rest of the taxa, while 18s shows Nectadamus diomedeae and Nectopyramis sp. as the most basal taxa, and 28s shows a polytomy between Hydra cicumcincta, a clade comprised of (Corymorpha pendula + Candelabrum cocksii), and the rest of the taxa. The placement of taxa are generally variable between trees; few stay at the same position or retain the same neighbor taxa. The trees also vary with regard to their branch lengths. All 3 trees display most branches as short branches, but the number of taxa at the end of long branches is variable. 16s shows 4 different long branch clades, 3 of which have only one or two members. 18s and 28s are distinct from 16 but similar to each other, with 1 (relatively speciose) long branch clade each. The members of this clade are entirely different from those of 16s. The individual gene trees therefore show substantial obvious differences in both tree topology and the lengths of individual bipartitions. 
+
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
