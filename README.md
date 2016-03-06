@@ -114,8 +114,12 @@ Questions:
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
 
+   No! There appear to be highly conserved regions, where the sequence is identical across species, and other sites that are highly polymorphic. Rate of molecular evolution here is synonymous with the degree of polymorphism/sequence divergence in these three genes across species.  
+
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+
+   16s appears to have the fastest rate, while 28s seems to have the slowest rate of evolution.
 
 ### Create concatenated alignments
 
