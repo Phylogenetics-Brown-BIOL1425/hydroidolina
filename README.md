@@ -113,9 +113,11 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
+Eye-balling the alignments, each gene has likely not had a consistent rate of molecular evolution along its full length. Certain stretches of each gene are completely aligned, while other sections are not as aligned, and this varies across the entire length of each gene. This indicates that the sections that are not as aligned has undergone a higher rate of molecular evolution than the sections more aligned. 
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+Gene 16S has had the fastest average rate of molecular evolution, while gene 18S has had the slowest average rate of molecular evolution. Eye-balling the alignments, gene 16S has the most number of areas areas along its entire stretch with low alignment, whereas gene 18S has the least number of areas along its entire stretch with low alignment, indicating that gene e16S likely has the fastest average rate of molecular evolution, and gene 18S the slowest.
 
 ### Create concatenated alignments
 
