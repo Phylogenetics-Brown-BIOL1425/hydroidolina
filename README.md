@@ -114,7 +114,7 @@ You should now have five files for each gene, eg `28s.raw.fasta`, `28s.fasta`, `
 1. **Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?**
    
-   None of the genes seem to have a truly consistent rate of evolution throughout the entirety of the molecule. This seems to be a reflection of the biology of these genes. Since RNA genes have tri-dimensional structures some regions will have stronger functional contraints than others. 
+   None of the genes seem to have a truly consistent rate of evolution throughout the entirety of the molecule. This seems to be a reflection of the biology of these genes. Since RNA genes have tri-dimensional structures some regions will have stronger functional constrains than others. 
 
 2. **Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?**
@@ -163,35 +163,35 @@ Questions:
 
 ###Combined Tree:
 
-Both the published and the generated trees seem to agree on the reconstruction of the groups, *i.e.* Trachylina, Capitata, Aplanulata, Filifera I, II, III and IV, Siphonophora and Leptothecata (Figure 1).Regagardin the produced tree, all these groups show high branch support close the bifurcations leading to the tips. However, bootstrap support dwindles away from the tips on the branches whithin the major splits of the Filifera groups (Figure 2) 
+Both the published and the generated trees seem to agree on the reconstruction of the groups, *i.e.* Trachylina, Capitata, Aplanulata, Filifera I, II, III and IV, Siphonophora and Leptothecata (Figure 1). All these groups show high branch support close the bifurcations leading to the tips. However, bootstrap support dwindles away from the tips on the branches within the major splits of the Filifera groups (Figure 2) 
 
-A major discordancy between the published and recently produced tree occurs in the placement of the Aplanulata clade with respect to the Filifera clades. In the published paper, Aplanulata is nested as sister taxa to Filifera II. In the produced tree, Aplanulata is sister taxa to the Filifera/Siphonophora/Leptothecata clade. The branch leading to this split has a suppport of 75 (Figures 1 & 2). 
+A major discordancy between the published and recently produced tree occurs in the placement of the Aplanulata clade with respect to the Filifera clades. In the published paper, Aplanulata is nested as sister taxa to Filifera II. In the produced tree, Aplanulata is sister taxa to the Filifera/Siphonophora/Leptothecata clade. The branch leading to this split has a support of 75 (Figures 1 & 2). 
 
-Please note that the tree prodiced in this exersice has been rooted using tehbranch leading to Trachylina in order to compare it to the published tree. 
+Please note that the tree produced in this exercise has been rooted using the branch leading to Trachylina in order to compare it to the published tree. 
 
 
-![Figure 1. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.png "Figure 1 2016 phylogeny - combined - with groups collapsed")
+![Figure 1. Estimated Phylogenetic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.png "Figure 1 2016 phylogeny - combined - with groups collapsed")
 **Figure 1: 2016 phylogeny - combined - with groups collapsed. In this and further figures, Olive = Trachylina, Teal = Capitata, Brown = Aplanulata, Green = Filera I, Maroon = Filifera II, Purple = Filifera IV, Orange = Filifera III, Blue = Siphonophora, Salmon = Leptothecata**
 
-![Figure 2. Estimated Phylogentic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png "Figure 2 2016 phylogeny - combined showing all branches")
+![Figure 2. Estimated Phylogenetic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png "Figure 2 2016 phylogeny - combined showing all branches")
 **Figure 2: 2016 phylogeny - combined showing all branches**
 
 ###16s Tree:
 
-Compared to the publsihed tree, only the Trachylina, Capitata and Aplanulata are reconstructed as clades. All other clades  are not reconstructed (Figure 3A).
+Compared to the published tree, only the Trachylina, Capitata and Aplanulata are reconstructed as clades. All other clades  are not reconstructed (Figure 3A).
 
 ###18s Tree:
 
-Compared to the publsihed tree, the 18s ribosomal gene tree reconstruct the clades: Siphonophora, Leptothecata, Trachylina, and Filifera III (Figure 3B). 
+Compared to the published tree, the 18s ribosomal gene tree reconstruct the clades: Siphonophora, Leptothecata, Trachylina, and Filifera III (Figure 3B). 
 
 ###28s Tree:
 
-Compared to the publsihed tree, the 28s ribosomal gene tree reconstructs most clades exept, Filifera IV (Figure 3C). It is the most similar to the published compound tree.  
+Compared to the published tree, the 28s ribosomal gene tree reconstructs most clades exept, Filifera IV (Figure 3C). It is the most similar to the published compound tree.  
 
 
 #2 - How do the trees for each gene differ from each other?
 
-Gene trees for 16s, 18s and 28s ribodsomal genes were generated in this assigment (Figure 3). With the exeption of the taxon used to re-root the tree (Trachylina), no clade is reconstructed across the three gene trees. 
+Gene trees for 16s, 18s and 28s ribosomal genes were generated in this assignment (Figure 3). With the exception of the taxon used to re-root the tree (Trachylina), no clade is reconstructed across the three gene trees. 
 
 ###16s and 18s 
 
@@ -214,7 +214,7 @@ Compared to each other, clades Siphonophora, Leptothecata, Capitata, Filifera II
 **Notes on Parameters in raxml log:**
 
 
-All free model parameters were estimated by RAxML for each run:  GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter. GAMMA Model parameters were  estimated up to an accuracy of 0.1000000000 Log Likelihood units
+All free model parameters were estimated by RAxML for each run:  GAMMA model of rate heterogeneity, ML estimate of alpha-parameter. GAMMA Model parameters were  estimated up to an accuracy of 0.1000000000 Log Likelihood units
 
 Substitution Matrix: GTR per run
 
