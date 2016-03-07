@@ -161,9 +161,14 @@ Questions:
 
 1. Do the trees differ from those published? If so, how?
 
+	The trees do differ from those published. The combined tree (which should be most directly comparable to the published tree, which was also generated from a combination of data from these 3 genes), shows substantial differences in topology. My combined tree places Hydractina symbiolongicarpus as the sister to all other taxa, but on the published tree this species is nested within the fairly derived Filifera III clade. Conversely, my combined tree places the clade Trachylina (with identical topology as to the published version of Trachylina) as a fairly derived clade, while the published tree places it as the sister to all other taxa. 
+
+NB: Trachylina has identical topology in the published and combined tree, as does Eudendriidae.  
+
 2. How do the trees for each gene differ from each other?
 
 	The topologies of the gene trees differ markedly from each other. All 3 gene trees have a polytomy at their first node; however, the taxa involved in these polytomies differ between them. 16s places Turritopsis sp. and Turritopsis dohrnii as basal to the rest of the taxa, while 18s shows a 4-way polytomy between Rosacea flaccida, Praya dubia, a clade comprised of (Hippopodius hippopus (Clausophyes ovata + Sulculeolaria quadrivalvis)), and the rest of the taxa, and 28s places Corymorpha bigelowi and Corymorpha pendula as basal to the rest of the taxa. The overall topologies of the different gene trees are similarly variable - taxa that are placed basally in one tree may be considered fairly derived by another. One notable topological similarity exists between 18s and 28s - both trees showcase a single long-branched clade with similar topology (however, more taxa are placed in this clade in the latter tree).
+
 	The trees also vary with regard to their branch lengths. All 3 trees display mostly short branches, but the number of taxa at the end of long branches varies between them. 16s shows 4 different long branch clades, 3 of which have only one or two members. As mentioned above, 18s and 28s are distinct from 16 but similar to each other, with 1 (relatively speciose) long branch clade each. The members of this clade are entirely different from those of 16s's speciose long branch. The individual gene trees show substantial obvious differences in both tree topology and the lengths of individual bipartitions.
 
 3. Take a look at the raxml log files. What do these tells you about the 
