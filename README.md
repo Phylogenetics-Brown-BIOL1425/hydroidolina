@@ -161,12 +161,11 @@ Once the run is complete (you can check the status with `myq`), add the new file
 
 Questions:
 
-1. Do the trees differ from those published? If so, how?
-2. How do the trees for each gene differ from each other?
+1. Do the trees differ from those published? If so, how? 2. How do the trees for each gene differ from each other?  (I will answer these together)
 
 ![Figure 1 from paper](https://rawgit.com/antropoteuthis/hydroidolina/master/figure1.svg)
 
-Figure 1: On combined matrix data.
+Figure 1: Tree published in Cartwright, P., Evans, N. M., Dunn, C. W., Marques, A. C., Miglietta, M. P., Schuchert, P., & Collins, A. G. (2008). Phylogenetics of Hydroidolina (Hydrozoa: Cnidaria). Journal of the Marine Biological Association of the UK, 88(08), 1663-1672. doi:10.1017/S0025315408002257 , from combined matrix data.
 
 Color key:
 
@@ -189,13 +188,12 @@ When manually rerooted in figtree to fit the aforementioned constraint, and rota
 
 All color coded clades (main clades identified from Figure 1) appear relatively well represented in the 18S gene tree and the combined matrix tree. The clade Trachylina appears in all gene trees.
 
-![Combined tree](https://rawgit.com/antropoteuthis/hydroidolina/master/4trees.png)
+![Combined trees](https://rawgit.com/antropoteuthis/hydroidolina/master/4trees.png)
+
+Figure 2, plot presenting all 3 gene trees and combined tree generated in this analysis.
 
 The first logical comparison would be the combined matrix tree with the published Figure 1. 
-
-Both recognize the main clades ((((Leptothecates and Siphonophores) and (Filifera III and Filifera IV))  and Aplanulata) and Capitata) and Trachilina). 
-
-However, the produced combined tree fails to recognize the paraphyletic relationship of the Filifera groups, clustering them together in one clade.
+Both recognize the main clades ((((Leptothecates and Siphonophores) and (Filifera III and Filifera IV))  and (Aplanulata ...) and Capitata) and Trachilina), if Filifera I,II are removed. Otherwise, the produced tree fails to recognize the paraphyletic relationship of the Filifera groups, clustering them together in one clade.
 
 The most conserved gene, 18S, produces a tree that very much resembles the published and combined matrix tree, except it places Filifera III as sister group to all non-trachyline, non-capitate hydroilines.
 
