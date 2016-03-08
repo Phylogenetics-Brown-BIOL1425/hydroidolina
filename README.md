@@ -165,14 +165,23 @@ Questions:
 2. How do the trees for each gene differ from each other?
 
 ![Figure 1 from paper](https://rawgit.com/antropoteuthis/hydroidolina/master/figure1.svg)
+
 Figure 1: On combined matrix data.
+
 Color key:
--Magenta: Trachilina
+
+-Magenta: Trachylina
+
 -Yellow: Siphonophora
+
 -Cyan: Leptothecata
+
 -Olive: Filifera IV
+
 -Red: Filifera III
+
 -Green: Aplanulata
+
 -Blue: Capitata
 
 The trees as opened in figtree straight out of the ML analysis are unrooted. The published figures show rooted trees, showing Trachilina as sister group to the Hydroilina clade.
@@ -183,8 +192,10 @@ All color coded clades (main clades identified from Figure 1) appear relatively 
 ![Combined tree](https://rawgit.com/antropoteuthis/hydroidolina/master/4trees.png)
 
 The first logical comparison would be the combined matrix tree with the published Figure 1. 
+
 Both recognize the main clades ((((Leptothecates and Siphonophores) and (Filifera III and Filifera IV))  and Aplanulata) and Capitata) and Trachilina). 
-However, the produce combined tree fails to recognize the paraphyletic relationship of the Filifera groups, clustering them together in one clade.
+
+However, the produced combined tree fails to recognize the paraphyletic relationship of the Filifera groups, clustering them together in one clade.
 
 The most conserved gene, 18S, produces a tree that very much resembles the published and combined matrix tree, except it places Filifera III as sister group to all non-trachyline, non-capitate hydroilines.
 
