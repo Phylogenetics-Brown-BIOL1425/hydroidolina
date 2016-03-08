@@ -114,12 +114,12 @@ Questions:
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
 
-   Clearly not, there are regions with much more incongruence between species than others, while some regions are composed of straight uniform lines of base type.
+   Clearly not, there are regions with much more incongruence between species than others, while some regions are composed of straight uniform lines of base type. This is probably due to functional constraints.
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
 
-   18s also looks very conseved, I say it has the slowest rate of molecular evolution.
+   18s also looks very conseved, I'd say it has the slowest rate of molecular evolution.
    28s looks very uniform in many regions, but it has more variability than 18s.
    16s has more overall variation between species, which suggests it is the gene with the highest evolutionary rates.
 
@@ -163,7 +163,94 @@ Questions:
 
 1. Do the trees differ from those published? If so, how?
 
+Figure 1: On combined matrix data.
+
+Color key:
+-Magenta: Trachilina
+-Yellow: Siphonophora
+-Cyan: Leptothecata
+-Olive: Filifera IV
+-Red: Filifera III
+-Green: Aplanulata
+-Blue: Capitata
+
+[](figure1.svg)
+
+The trees as opened in figtree straight out of the ML analysis are unrooted. The published figures show rooted trees, showing Trachilina as sister group to the Hydroilina clade.
+When manually rerooted in figtree to fit the aforementioned constraint, and rotated the branches to resemble the published tree, we can identify further incongruences.
+
+The first logical comparison would be the combined matrix tree with the published Figure 1. Both recognize (((Leptothecates and Siphonophores) and (Filifera III and Filifera IV))  and (Aplanulata and Others) and ()) .
+
+16S doesn't fully recognize siphonophores as a clade! Clausophyes ovata and Sulculeolaria quadrivalvis are placed as a sister group to Rhizogeton nudus.
+
 2. How do the trees for each gene differ from each other?
+
+16S doesn't fully recognize siphonophores as a clade! Clausophyes ovata and Sulculeolaria quadrivalvis are placed as a sister group to Rhizogeton nudus.
 
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+
+   Each gene tree was found estimating different GTR-Gamma molecular evolution model parameters:
+
+   28S:
+   		alpha: 0.238208
+   		Tree length: 8.26401
+		rate A <-> C: 0.578063
+		rate A <-> G: 2.084487
+		rate A <-> T: 0.666076
+		rate C <-> G: 0.728393
+		rate C <-> T: 4.537034
+		rate G <-> T: 1.000000
+
+		freq pi(A): 0.263767
+		freq pi(C): 0.207798
+		freq pi(G): 0.283709
+		freq pi(T): 0.244726
+
+   18S:
+   		alpha: 0.201757
+   		Tree length: 3.716563
+   		rate A <-> C: 1.395773
+		rate A <-> G: 2.974301
+		rate A <-> T: 1.277093
+		rate C <-> G: 0.992031
+		rate C <-> T: 6.531239
+		rate G <-> T: 1.000000
+
+		freq pi(A): 0.269513
+		freq pi(C): 0.194606
+		freq pi(G): 0.260255
+		freq pi(T): 0.275625
+
+	16S:
+		alpha: 0.462131
+		Tree length: 28.790199
+		rate A <-> C: 1.749918
+		rate A <-> G: 6.177202
+		rate A <-> T: 3.800691
+		rate C <-> G: 0.685706
+		rate C <-> T: 11.188630
+		rate G <-> T: 1.000000
+
+		freq pi(A): 0.396763
+		freq pi(C): 0.124418
+		freq pi(G): 0.157227
+		freq pi(T): 0.321593
+
+	Combined:
+		alpha: 0.253321
+		Tree length: 8.219909
+		rate A <-> C: 0.806800
+		rate A <-> G: 2.608071
+		rate A <-> T: 1.911118
+		rate C <-> G: 0.900656
+		rate C <-> T: 5.287369
+		rate G <-> T: 1.000000
+
+		freq pi(A): 0.277945
+		freq pi(C): 0.195911
+		freq pi(G): 0.264600
+		freq pi(T): 0.261544
+
+18S and 28S had similar Pi values. Tree length seems to correlate with our eye-balling ranking of molecular evolution for each gene. C<->T had the largest rates acroos all tree searches. 
+G<->T was constant and equal to 1 in all tree searches.
