@@ -162,9 +162,10 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
+2. How do the trees for each gene differ from each other?
 
+![Figure 1 from paper](https://rawgit.com/antropoteuthis/hydroidolina/master/figure1.svg)
 Figure 1: On combined matrix data.
-
 Color key:
 -Magenta: Trachilina
 -Yellow: Siphonophora
@@ -174,18 +175,22 @@ Color key:
 -Green: Aplanulata
 -Blue: Capitata
 
-[](figure1.svg)
-
 The trees as opened in figtree straight out of the ML analysis are unrooted. The published figures show rooted trees, showing Trachilina as sister group to the Hydroilina clade.
 When manually rerooted in figtree to fit the aforementioned constraint, and rotated the branches to resemble the published tree, we can identify further incongruences.
 
-The first logical comparison would be the combined matrix tree with the published Figure 1. Both recognize (((Leptothecates and Siphonophores) and (Filifera III and Filifera IV))  and (Aplanulata and Others) and ()) .
+All color coded clades (main clades identified from Figure 1) appear relatively well represented in the 18S gene tree and the combined matrix tree. The clade Trachylina appears in all gene trees.
 
-16S doesn't fully recognize siphonophores as a clade! Clausophyes ovata and Sulculeolaria quadrivalvis are placed as a sister group to Rhizogeton nudus.
+![Combined tree](https://rawgit.com/antropoteuthis/hydroidolina/master/4trees.png)
 
-2. How do the trees for each gene differ from each other?
+The first logical comparison would be the combined matrix tree with the published Figure 1. 
+Both recognize the main clades ((((Leptothecates and Siphonophores) and (Filifera III and Filifera IV))  and Aplanulata) and Capitata) and Trachilina). 
+However, the produce combined tree fails to recognize the paraphyletic relationship of the Filifera groups, clustering them together in one clade.
 
-16S doesn't fully recognize siphonophores as a clade! Clausophyes ovata and Sulculeolaria quadrivalvis are placed as a sister group to Rhizogeton nudus.
+The most conserved gene, 18S, produces a tree that very much resembles the published and combined matrix tree, except it places Filifera III as sister group to all non-trachyline, non-capitate hydroilines.
+
+28S strongly supports the placement of siphonophores as a sister group to all non-trachyline hydroilines, and fails to recognize the monophyly of Filifera IV (Gonoproxima)
+
+The selected color coded clades appear the most disgregated in the 16S gene tree. 16S doesn't even fully recognize siphonophores as a clade! Clausophyes ovata and Sulculeolaria quadrivalvis are placed as a sister group to Rhizogeton nudus. 16S differs the most from other trees. It does not fully recognize the clade Capitata or Filifera IV either.
 
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
