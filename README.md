@@ -119,7 +119,7 @@ You should now have five files for each gene, eg `28s.raw.fasta`, `28s.fasta`, `
 2. **Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?**
    
-   The 16S gene seems to have a very fast rate of molecular evolution, given the high rate of indels and mismatch among species. Both 18S and 28S seem to have a slow rate of molecular evolution, it seems to me (i.e. eye balling), that 28S has the slowest rate of evolution. 
+   The 16S gene seems to have a very fast rate of molecular evolution, given the high rate of indels and mismatch among species. Both 18S and 28S seem to have a slow rate of molecular evolution, it seems to me (i.e. eye balling), that 18S has the slowest rate of evolution. 
 
 ### Create concatenated alignments
 
@@ -165,7 +165,7 @@ Questions:
 
 Both the published and the generated trees seem to agree on the reconstruction of the groups, *i.e.* Trachylina, Capitata, Aplanulata, Filifera I, II, III and IV, Siphonophora and Leptothecata (Figure 1). All these groups show high branch support close the bifurcations leading to the tips. However, bootstrap support dwindles away from the tips on the branches within the major splits of the Filifera groups (Figure 2) 
 
-A major discordancy between the published and recently produced tree occurs in the placement of the Aplanulata clade with respect to the Filifera clades. In the published paper, Aplanulata is nested as sister taxa to Filifera II. In the produced tree, Aplanulata is sister taxa to the Filifera/Siphonophora/Leptothecata clade. The branch leading to this split has a support of 75 (Figures 1 & 2). 
+A major discordancy between the published and recently produced tree occurs in the placement of the Aplanulata clade with respect to the Filifera groups. In the published paper, Aplanulata is nested as sister taxa to Filifera II. In the produced tree, Aplanulata is sister taxa to the Filifera/Siphonophora/Leptothecata clade. The branch leading to this split has a support of 75 (Figures 1 & 2). Moreover, in contrast to the published tree, all filiferas are part of a  "filifera clade". The branch support of the branch leading to this clade is very low (10).
 
 Please note that the tree produced in this exercise has been rooted using the branch leading to Trachylina in order to compare it to the published tree. 
 
@@ -191,7 +191,7 @@ Compared to the published tree, the 28s ribosomal gene tree reconstructs most cl
 
 #2 - How do the trees for each gene differ from each other?
 
-Gene trees for 16s, 18s and 28s ribosomal genes were generated in this assignment (Figure 3). With the exception of the taxon used to re-root the tree (Trachylina), no clade is reconstructed across the three gene trees. 
+Gene trees for 16s, 18s and 28s ribosomal genes were generated in this assignment (Figure 3). 
 
 ###16s and 18s 
 
