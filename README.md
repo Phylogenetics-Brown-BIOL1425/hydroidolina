@@ -158,8 +158,14 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
+The trees do differ from the published ones. They differ in the bootstrap values obtained for clades showing the same relationships. They also differ in the relationships themselves, with the common ancestor between two organisms differing between the published and the analyzed tree. The combined tree that was obtained also differs from the published one in being calibrated with the amount of character changes observed along each branch (in being a phylogram).
 
 2. How do the trees for each gene differ from each other?
+The trees for each gene differ in the bootstrap values for clades, the relationships of the taxa, and the length of the branches. The trees for 18s and 28s were more similar to each other than to 16s at glance, with similar taxa exhibiting more evolution and similar taxa clustering together as clades between the two trees (i.e. Nemertesia antennina and Pulmularia hyalina are sister taxa in the 16s, 18s, 28s and combined, and had a most recent common ancestor that had undergone significant evolution in 18s, 28s and combined). The trees were additionally different in the taxa being considered—some taxa were considered in one gene tree, but were not present in another gene tree. This also led to the combined containing the most number of taxa. In general, although there were similarities in relationships, clades and evolutionary rates here and there, the trees differed in many points on the relationships, bootstrap values for similar clades, and in the evolutionary rates.
 
 3. Take a look at the raxml log files. What do these tells you about the 
-   different models of molecular evolution for the four analyses?
+   different models of molecular evolution for the four analyses? 
+The files show that the four analyses utilized models with different substitution rates and frequencies of the nucleotide bases. All four had the highest substitution rates for transitions (A <—> G and C <—> T), but the values for the rates themselves varied between the four analyses. The values for all four of the transversions varied between the four analyses. The only constant was the value for the G <—> T substitution rate, which was set at 1.000000 for all four analyses. The models each had different frequencies for the four nucleotide bases, and the order from most to least frequent bases was different as well. The value for alpha was different between all four analyses too, with the lowest value for 18s and the highest value for 16s. The log files provided all of this information under the section Model Parameters of Partition 0. 
+
+
+
