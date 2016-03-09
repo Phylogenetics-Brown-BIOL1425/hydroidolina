@@ -161,7 +161,7 @@ Questions:
 
 1. Do the trees differ from those published? If so, how?
 
-	The trees do differ from those published. The combined tree (which should be most directly comparable to the published tree, which was also generated from a combination of data from these 3 genes), shows substantial differences in topology. My combined tree places Hydractina symbiolongicarpus as the sister to all other taxa, but on the published tree this species is nested within the fairly derived Filifera III clade. Conversely, my combined tree places the clade Trachylina (with identical topology as to the published version of Trachylina) as a fairly derived clade, while the published tree places it as the sister to all other taxa. 
+	The trees do differ from those published. The combined tree (which should be most directly comparable to the published tree, which was also generated from a combination of data from these 3 genes), shows substantial differences in taxon and clade placement. For instance, my combined tree places Hydractina symbiolongicarpus and Clavactinia gallensis apart from apart from the clade Filifera III on branches of their own, but on the published tree both species are nested within Filifera III. Conversely, my combined tree places the clade Trachylina (with identical topology as to the published version of Trachylina) as a fairly derived clade, while the published tree places it as the sister to all other taxa. 
 
 NB: Trachylina has identical topology in the published and combined tree, as does Eudendriidae.  
 
