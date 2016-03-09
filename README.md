@@ -114,8 +114,12 @@ Questions:
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
 
+No, the rate of evolution along the genes is dependent on position. There are regions of the genes that are highly conserved among most or all of the species represented in the study, but there are also highly variable regions in which mutation has occurred more frequently.
+
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+
+At first pass, the 16s gene appears to have undergone more evolution than the others, and the 18s gene appears to have undergone less.
 
 ### Create concatenated alignments
 
