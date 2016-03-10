@@ -113,9 +113,10 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
-
+The genes do not have a consistent rate of molecular evolution along their entire lengths because some groups of columns are identical across taxa while other groups of columns are completely variable.
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+16s appears to have the fastest average rate of molecular evolution (the highest percentage of variable columns) while 18s appears to have the slowest average rate of molecular evolution (the lowest percentage of columns with variation.)
 
 ### Create concatenated alignments
 
@@ -156,8 +157,9 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
-
+The trees that I made reconstructed similar clades to the trees from the papers, but often reordered the relationships within the clades. (This is mostly based on comparing the combined tree to the combined tree in the paper.)
 2. How do the trees for each gene differ from each other?
-
+The different gene trees show different rates of evolution for different groups. However, the animals with the fastest evolving 18s and 28s regions have many overlapping members.
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+The log files show that the 16s has the fastest model of molecular evolution (highest substitution rates) while 28s has the slowest (lowest substitution rates.)
