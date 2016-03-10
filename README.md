@@ -114,8 +114,12 @@ Questions:
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
 
+No. There are regions with little to no observed changes (runs where all of the bases in a group of columns are the same) while other regions feature a much more diverse mixture of features. These more diverse regions appear to have slower rates of molecular evolution as they have not changed as much. This could also be explained by selection in these regions. Changing these bases could have a negative impact on the protein thus causing the uniform nature. 
+
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+
+The fastest average rate of molecular evolution appears in 28s. The alignment for this one is very mixed and features few conserved bases. The slowest rate on the other hand appears to be 18s. For 18s, most columns appear highly conserved and there are less gaps than in 16s. 
 
 ### Create concatenated alignments
 
