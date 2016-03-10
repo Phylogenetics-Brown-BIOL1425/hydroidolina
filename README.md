@@ -113,11 +113,11 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
-Eye-balling the alignments, each gene has likely not had a consistent rate of molecular evolution along its full length. Certain stretches of each gene are completely aligned, while other sections are not as aligned, and this varies across the entire length of each gene. This indicates that the sections that are not as aligned has undergone a higher rate of molecular evolution than the sections more aligned. 
+Eye-balling the alignments, each gene has likely not had a consistent rate of molecular evolution along its full length. Certain stretches of each gene are completely aligned, while other sections are not as aligned, and this varies across the entire length of each gene. This indicates that certain regions have undergone higher rates of molecular evolution than others, as the sections that are not as aligned have undergone a higher rate of molecular evolution than the sections more aligned to result in the less aligned state. 
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
-Gene 16S has had the fastest average rate of molecular evolution, while gene 18S has had the slowest average rate of molecular evolution. Eye-balling the alignments, gene 16S has the most number of areas areas along its entire stretch with low alignment, whereas gene 18S has the least number of areas along its entire stretch with low alignment, indicating that gene e16S likely has the fastest average rate of molecular evolution, and gene 18S the slowest.
+Gene 16S has had the fastest average rate of molecular evolution, while gene 18S has had the slowest average rate of molecular evolution. Eye-balling the alignments, gene 16S has the most number of areas areas along its entire stretch with low alignment, whereas gene 18S has the least number of areas along its entire stretch with low alignment, indicating that gene e16S likely has the fastest average rate of molecular evolution, and gene 18S the slowest. 
 
 ### Create concatenated alignments
 
@@ -158,6 +158,8 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
+The combined tree contains as its outgroup the taxon “Olindias Sambaquiensis”, and so the four trees were compared by making that as the outgroup for the other three trees. The tree for 16s does not contain this taxon, however, and so general clades were observed to look for similarities. 
+
 The trees do differ from the published ones. They differ in the bootstrap values obtained for clades showing the same relationships. They also differ in the relationships themselves, with the common ancestor between two organisms differing between the published and the analyzed tree. The combined tree that was obtained also differs from the published one in being calibrated with the amount of character changes observed along each branch (in being a phylogram).
 
 2. How do the trees for each gene differ from each other?
