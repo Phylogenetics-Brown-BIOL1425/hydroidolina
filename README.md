@@ -119,7 +119,7 @@ No. There are regions with little to no observed changes (runs where all of the 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
 
-The fastest average rate of molecular evolution appears in 28s. The alignment for this one is very mixed and features few conserved bases. The slowest rate on the other hand appears to be 18s. For 18s, most columns appear highly conserved and there are less gaps than in 16s. 
+The fastest average rate of molecular evolution appears in 28s. The alignment for this one is very mixed and features less conserved bases than the others. It also has more gaps. The slowest rate on the other hand appears to be 18s. For 18s, most columns appear highly conserved and there are less gaps than in 16s. 
 
 ### Create concatenated alignments
 
@@ -160,6 +160,8 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
+
+
 
 2. How do the trees for each gene differ from each other?
 
