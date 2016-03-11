@@ -113,10 +113,10 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
-
+16 appears to vary along its length, with some regions more rapidly altering than others. 18 appears to be relatively consistant by comparison to 16. 28 is much like 16 in that it seems to vary, with some regions experiencing greater rates of evoution than others.
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
-
+16 appears to be evolving the fastest, while 18 appears to be evolving the slowest.
 ### Create concatenated alignments
 
 Now you have alignments for three genes. We will combine the data by creating concatenated alignments that include data for all genes. There are a few ways to do this, we'll use the tool [phyutility](https://github.com/blackrim/phyutility). If you don't have java installed already, you will need to install it (if you try the command below but don't have java, it may describe how to install java on your system). Rather than install java on your laptop, you could just run the command on oscar (which has java installed already)
@@ -156,8 +156,16 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
-
+	For the combined best tree, they do differ. Edge lengths are much more varied in our generated tree, probably because it does not make the assumption that all these organisms are alive today. The confidence values of our tree are much lower than those given in the paper.
+additionally, many of the clades are different than what is given in the paper.I attempted to root our tree in a similar place, but the clades are so different that comparison is still difficult.
 2. How do the trees for each gene differ from each other?
-
+	The gene trees seem somewhat similar to each other in terms of clade structure, but have wildly different branch lengths. There is some overlap between
+	clades with particularly long branch lengths between 18s and 28s, but less with either and 16s.
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+	The info file for 16 says there are 654 alignment patterns
+	The info file for 18 says there are 716 alignment patterns
+	The info file for 28 says there are 1849 alignment patterns
+	The info file for the combined analysis says there are 3245 alignment patterns.
+	A greater number of alignment patterns requires suggests greater change between inputs in the data set, implying a greater rate of change.
+	However, when looking at the statistics for actual convertion between bases, bases in 18 are less probably to convert over all than in 16, and even less likely in 28. The combined is between 18 and 28 in this regard.
