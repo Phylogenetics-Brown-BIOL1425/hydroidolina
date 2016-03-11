@@ -114,8 +114,12 @@ Questions:
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
 
+   No! There appear to be highly conserved regions, where the sequence is identical across species, and other sites that are highly polymorphic. Rate of molecular evolution here is synonymous with the degree of polymorphism/sequence divergence in these three genes across species.  
+
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+
+   16s appears to have the fastest rate, while 28s seems to have the slowest rate of evolution.
 
 ### Create concatenated alignments
 
@@ -156,8 +160,92 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
-
+  YES, the trees differ greatly from those published! see below:
+  * 16s to published
+    * no support for Capitata
+    * support for Trachylina
+    * support for Aplantulata
+    * support for Siphonophorae
+        * except for S. quadrivalvis and C. ovata
+    * support for Leptothecata
+    * support for Filifera I
+    * support for Filifera II
+        * except for H. epigorgia, which moved into Leptothecata
+    * Filifera III polyphyletic
+        * C. gallensis is within Leptothecata
+        * paraphyletic
+    * Filifera IV paraphyletic
+        * Bougainvilliidae and Oceanside group together
+        * Rathkeidae and R. nudus outside
+* 18s to published
+    * Siphonophorae paraphyletic
+    * unclear from graph whether capitata monophyletic or not
+    * support for aplantulata
+    * support for trachylina
+    * no support for Filifera I
+    * support for Filifera II
+    * support for Filifera III
+        * C. gallensis included, unlike in 16s
+    * Filifera IV paraphyletic
+        * includes Filifera II and Filifera III
+    * support for Leptothecata
+* 28s to published
+    * Capitata paraphyletic
+        * the parent group
+    * support for Siphonophorae
+    * support for Lepto
+    * support for trachylina
+    * support for aplantula
+    * support for Filifera I
+    * support for Filifera II
+    * support for Filifera III
+    * Filifera IV paraphyletic
+        * includes Filifera III
+* combined to published
+    * support for capitata
+    * support for siphonophore
+    * support for Lepto
+    * support for trachylina
+    * support for aplantula
+    * support for Filifera I
+    * support for Filifera II
+    * support for Filifera IIV
+    * Filifera III paraphyletic
+        * parent group
+* differences in my generated phylogenies to those published in paper
+        * strong support from the combined data phylogeny for the clades outlined in the paper, but none of the phylogenies, not even the most clade-confident, combined phylogeny show Hydroidolina as sister to Trachylina. Trachylina is nested deep within the combined phylogeny behind high-confidence nodes, and Filifera III appears to be sister to the rest of the phylogeny. For that reason, I contest Cartwright’s conclusion that “Hydroidolina” is a monophyletic group. The topology of the phylogeny past these high confidence nodes is poorly supported; bootstrap values at nodes separating clades from one another are very low. This means that the relationships shallower than the the Filifera III-else bipartition are up in the air, but Filifera III is a clear outgroup.
 2. How do the trees for each gene differ from each other?
-
+    * Support for clades by gene tree:
+        * Trachylina: 16s, 18s, 28s
+        * Aplantulata: 16s, 18s, 28s
+        * Capitata: 18s (unclear whether polytomy or realllllly small branches), 28s
+        * Siphonophorae: 28s
+            * 16s largely supports the clade, but S. quadrivalvis and C. ovata are grouped outside with Rathkeidae from Filifera IV
+                * low support
+            * 18s shows Siphonophorae as paraphyletic and parent to all clades
+        * Leopothecata: 18s, 28s
+            * 16s Leptothecata contains H. epigorgia and C. gallensis, making it paraphyletic 
+        * Filifera I: 16s, 28s
+        * Filifera II: 18s, 28s
+            * 16s largely supports the clade, but H. epigorgia moved into Leptothecata
+        * Filifera III: 18s, 28s
+            * C. gallensis is within Leptothecata in 16s
+        * Filifera IV: only supported by combined 
+        * Hydroidolina: not supported by any gene or combined phylogeny
+        * combined tree supports all clades except Hydroidolina and Filifera III
+        * bootstrap values are generally low, but a few relationships are well supported with bootstrap values in some trees
+            * 16s:
+                * Aplantulata sister to Filifera II
+            * 28s:
+                * Aplantulata as sister to branch containing all clades except Capitata
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+      * significance of model parameters
+        * Tree length:
+            * 16s has the highest tree length, indicating that it has undergone the most change throughout its evolutionary history.
+            * 18s appears to have the shortest tree length, indicating that it has undergone the least change.
+                * This conflicts with my “eyeballing” of the original alignments, but I guess that’s why we have computers…
+        * alpha
+            * 16s has an alpha about double that of 18s and 28s, meaning that its sites have more homogenous substitution rates. Maybe all sites in 16s are evolving quickly, while in 18s and 28s there are some sites evolving quickly and others more slowly (or even fixed).
+        * frequency of C-G vs A-T
+            * the equilibrium frequencies if A and T are fairly similar, while the frequencies of C and G are dramatically different. Given that they must pair, I wonder how the equilibrium frequency of G is allowed to so greatly exceed that of C. 

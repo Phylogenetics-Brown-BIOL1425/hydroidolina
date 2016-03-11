@@ -1,0 +1,209 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=115;
+	taxlabels
+	Abietinaria_filicula
+	Adelopora_crassilabrum
+	Aegina_citrea
+	Aequorea_aequorea
+	Aequorea_floridana
+	Aequorea_victoria
+	Agalma_elegans
+	Aglantha_digitale
+	Aglaophenia_tubiformis
+	Aglaura_hemistoma
+	Aglauropsis_aeora
+	Anthohebella_parasitica
+	Apolemia_sp
+	Astrohydra_japonica
+	Bimeria_vestita
+	Blackfordia_virginica
+	Bougainvillia_carolinensis
+	Bougainvillia_fulva
+	Brinckmannia_hexactinellidophila
+	Candelabrum_cocksii
+	Cladocoryne_floccosa
+	Clausophyes_ovata
+	Clava_multicornis
+	Clavactinia_gallensis
+	Clytia_noliformis
+	Conopora_anthohelia
+	Cordagalma_cordiforme
+	Cordylophora_caspia
+	Corydendrium_sp
+	Corymorpha_bigelowi
+	Corymorpha_pendula
+	Coryne_nipponica
+	Crypthelia_cryptotrema
+	Dicoryne_conybearei
+	Diphasia_fallax
+	Dipurena_ophiogaster
+	Ectopleura_dumortieri
+	Erenna_sp
+	Eudendrium_californicum
+	Eudendrium_capillare
+	Eudendrium_racemosum
+	Eutima_sapinhoa
+	Fabienna_sphaerica
+	Forskalia_edwardsi
+	Garveia_annulata
+	Garveia_grisea
+	Garveia_sp
+	Halecium_muricatum
+	Haliscera_conica
+	Halistemma_rubrum
+	Halopteris_minuta
+	Hippopodius_hippopus
+	Hydra_circumcincta
+	Hydractinia_sp
+	Hydractinia_symbiolongicarpus
+	Hydrallmania_falcata
+	Hydrichthella_epigorgia
+	Hydrichthys_boycei
+	Koellikerina_fasciculata
+	Lafoea_dumosa
+	Lepidopora_microstylus
+	Leuckartiara_octona
+	Limnocnida_tanganyicae
+	Lizzia_blondina
+	Melicertissa_sp
+	Melicertum_octocostatum
+	Moerisia_sp
+	Monostaechas_quadridens
+	Nanomia_bijuga
+	Nectadamas_diomedeae
+	Nectopyramis_natans
+	Nectopyramis_sp
+	Nemertesia_antennina
+	Neoturris_breviconis
+	Octophialucium_indicum
+	Olindias_sambaquiensis
+	Pachycordyle_pusilla
+	Pandea_sp
+	Pantachogon_haeckeli
+	Pennaria_disticha
+	Physalia_physalis
+	Physophora_hydrostatica
+	Plumularia_hyalina
+	Podocoryna_exigua
+	Porpita_sp
+	Praya_dubia
+	Proboscidactyla_flavicirrata
+	Proboscidactyla_ornata
+	Pseudocrypthelia_pachypoma
+	Ralpharia_gorgoniae
+	Rathkea_octopunctata
+	Rhacostoma_atlantica
+	Rhizogeton_nudus
+	Rhopalonema_velatum
+	Rosacea_flaccida
+	Scrippsia_pacifica
+	Sertularia_cupressina
+	Sertularia_perpusilla
+	Solanderia_ericopsis
+	Solanderia_secunda
+	Solmissus_marshalli
+	Solmundella_bitentaculata
+	Stephalia_dilata
+	Stephanomia_amphytridis
+	Sulculeolaria_quadrivalvis
+	Tetraplatia_volitans
+	Thuiaria_thuja
+	Tiaropsidium_kelseyi
+	Turritopsis_dohrnii
+	Turritopsis_sp
+	Velella_sp
+	Velella_velella
+	Zanclea_prolifera
+	Zyzzyzus_calderi
+	Zyzzyzus_warreni
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((Pseudocrypthelia_pachypoma[&!rotate=true]:0.009101,Crypthelia_cryptotrema[&!rotate=true]:0.011501)[&MP=100,!rotate=true]:0.010796,(Lepidopora_microstylus[&!rotate=true]:0.020805,(Adelopora_crassilabrum[&!rotate=true]:0.030807,((((((Brinckmannia_hexactinellidophila[&!color=#008080,!rotate=false]:0.02901,(Fabienna_sphaerica[&!color=#008080,!rotate=false]:0.014855,(Proboscidactyla_ornata[&!color=#008080,!rotate=false]:0.009877,Proboscidactyla_flavicirrata[&!color=#008080,!rotate=false]:0.010828)[&MP=100,!color=#008080,!rotate=false]:0.020322)[&MP=100,!color=#008080,!rotate=false]:0.034555)[&MP=84,!color=#008080,!rotate=false]:0.018754,Hydrichthella_epigorgia[&!color=#008080,!rotate=false]:0.037724)[&MP=60,!cartoon={5,0.6970241604595662},!color=#008080,!rotate=false]:0.012182,(Eudendrium_californicum[&!color=#800000,!rotate=false]:0.043161,(Eudendrium_capillare[&!color=#800000,!rotate=false]:0.030898,Eudendrium_racemosum[&!color=#800000,!rotate=false]:0.063179)[&MP=98,!color=#800000,!rotate=false]:0.017028)[&MP=94,!cartoon={3,0.7006046065298491},!color=#800000,!rotate=false]:0.012853)[&MP=16,!rotate=false]:0.010182,((((Turritopsis_dohrnii[&!color=#ffff00,!rotate=false]:0.011956,Turritopsis_sp[&!color=#ffff00,!rotate=false]:0.014507)[&MP=100,!color=#ffff00,!rotate=false]:0.075541,(((Pachycordyle_pusilla[&!color=#ffff00,!rotate=false]:0.045282,(Cordylophora_caspia[&!color=#ffff00,!rotate=false]:0.025419,Bimeria_vestita[&!color=#ffff00,!rotate=false]:0.016259)[&MP=100,!color=#ffff00,!rotate=false]:0.013363)[&MP=95,!color=#ffff00,!rotate=false]:0.008821,(Garveia_grisea[&!color=#ffff00,!rotate=false]:0.032957,Corydendrium_sp[&!color=#ffff00,!rotate=false]:0.078779)[&MP=88,!color=#ffff00,!rotate=false]:0.016158)[&MP=38,!color=#ffff00,!rotate=false]:0.001324,(Koellikerina_fasciculata[&!color=#ffff00,!rotate=false]:0.024828,(Bougainvillia_fulva[&!color=#ffff00,!rotate=false]:0.011486,Bougainvillia_carolinensis[&!color=#ffff00,!rotate=false]:0.018843)[&MP=100,!color=#ffff00,!rotate=false]:0.022948)[&MP=94,!color=#ffff00,!rotate=false]:0.009392)[&MP=99,!color=#ffff00,!rotate=false]:0.018778)[&MP=94,!color=#ffff00,!rotate=false]:0.013953,((Garveia_sp[&!color=#ffff00,!rotate=false]:0.017173,(Rhizogeton_nudus[&!color=#ffff00,!rotate=false]:0.105237,(Lizzia_blondina[&!color=#ffff00,!rotate=false]:0.017465,Rathkea_octopunctata[&!color=#ffff00,!rotate=false]:0.019626)[&MP=100,!color=#ffff00,!rotate=false]:0.039856)[&MP=63,!color=#ffff00,!rotate=false]:0.009754)[&MP=49,!color=#ffff00,!rotate=false]:0.012294,(Garveia_annulata[&!color=#ffff00,!rotate=false]:0.023984,(Leuckartiara_octona[&!color=#ffff00,!rotate=false]:0.023587,((Neoturris_breviconis[&!color=#ffff00,!rotate=false]:0.003337,Pandea_sp[&!color=#ffff00,!rotate=false]:0.001367)[&MP=100,!color=#ffff00,!rotate=false]:0.007045,Hydrichthys_boycei[&!color=#ffff00,!rotate=false]:0.017582)[&MP=99,!color=#ffff00,!rotate=false]:0.015379)[&MP=98,!color=#ffff00,!rotate=false]:0.00967)[&MP=91,!color=#ffff00,!rotate=false]:0.008887)[&MP=57,!color=#ffff00,!rotate=false]:0.006664)[&MP=37,!color=#ffff00,!rotate=false]:0.005242,Dicoryne_conybearei[&!color=#ffff00,!rotate=false]:0.040801)[&MP=20,!color=#ffff00,!rotate=false,!cartoon={20,0.6601129443917297}]:0.004543)[&MP=6,!rotate=false]:0.004452,((((((Zyzzyzus_calderi[&!color=#408000,!rotate=false]:0.02036,(Ectopleura_dumortieri[&!color=#408000,!rotate=false]:0.063276,(Ralpharia_gorgoniae[&!color=#408000,!rotate=false]:0.050999,Zyzzyzus_warreni[&!color=#408000,!rotate=false]:0.06941)[&MP=99,!color=#408000,!rotate=false]:0.015414)[&MP=98,!color=#408000,!rotate=false]:0.002423)[&MP=100,!color=#408000,!rotate=false]:0.018681,(Corymorpha_bigelowi[&!color=#408000,!rotate=false]:0.088004,Corymorpha_pendula[&!color=#408000,!rotate=false]:0.034673)[&MP=100,!color=#408000,!rotate=false]:0.02278)[&MP=99,!color=#408000,!rotate=false]:0.01849,Hydra_circumcincta[&!color=#408000,!rotate=false]:0.111)[&MP=60,!color=#408000,!rotate=false]:0.007395,Candelabrum_cocksii[&!color=#408000,!rotate=false]:0.123734)[&MP=100,!cartoon={8,0.60937385817741},!color=#408000,!rotate=false]:0.048215,((Olindias_sambaquiensis[&!color=#00ff00,!rotate=false]:0.070992,(((Limnocnida_tanganyicae[&!color=#00ff00,!rotate=false]:0.079931,Astrohydra_japonica[&!color=#00ff00,!rotate=false]:0.063328)[&MP=100,!color=#00ff00,!rotate=false]:0.039278,Aglauropsis_aeora[&!color=#00ff00,!rotate=false]:0.029422)[&MP=100,!color=#00ff00,!rotate=false]:0.033325,(((Solmissus_marshalli[&!color=#00ff00,!rotate=false]:0.053059,(Tetraplatia_volitans[&!color=#00ff00,!rotate=false]:0.054512,(Solmundella_bitentaculata[&!color=#00ff00,!rotate=false]:0.052178,Aegina_citrea[&!color=#00ff00,!rotate=false]:0.003343)[&MP=100,!color=#00ff00,!rotate=false]:0.0264)[&MP=100,!color=#00ff00,!rotate=false]:0.009984)[&MP=100,!color=#00ff00,!rotate=false]:0.078405,Haliscera_conica[&!color=#00ff00,!rotate=false]:0.044515)[&MP=100,!color=#00ff00,!rotate=false]:0.015235,((Rhopalonema_velatum[&!color=#00ff00,!rotate=false]:0.02575,Pantachogon_haeckeli[&!color=#00ff00,!rotate=false]:0.019471)[&MP=100,!color=#00ff00,!rotate=false]:0.011645,(Aglantha_digitale[&!color=#00ff00,!rotate=false]:0.033996,Aglaura_hemistoma[&!color=#00ff00,!rotate=false]:0.054604)[&MP=100,!color=#00ff00,!rotate=false]:0.037426)[&MP=100,!color=#00ff00,!rotate=false]:0.087263)[&MP=100,!color=#00ff00,!rotate=false]:0.048949)[&MP=48,!color=#00ff00,!rotate=false]:0.002796)[&MP=100,!cartoon={13,0.49113775948124705},!color=#00ff00,!rotate=false]:0.062646,(((Dipurena_ophiogaster[&!color=#ff6fcf,!rotate=false]:0.029984,Coryne_nipponica[&!color=#ff6fcf,!rotate=false]:0.030799)[&MP=100,!color=#ff6fcf,!rotate=false]:0.039195,Scrippsia_pacifica[&!color=#ff6fcf,!rotate=false]:0.070167)[&MP=100,!color=#ff6fcf,!rotate=false]:0.035583,(Pennaria_disticha[&!color=#ff6fcf,!rotate=false]:0.082408,((Cladocoryne_floccosa[&!color=#ff6fcf,!rotate=false]:0.070717,((Zanclea_prolifera[&!color=#ff6fcf,!rotate=false]:0.039184,(Solanderia_secunda[&!color=#ff6fcf,!rotate=false]:0.021698,Solanderia_ericopsis[&!color=#ff6fcf,!rotate=false]:0.013659)[&MP=100,!color=#ff6fcf,!rotate=false]:0.041146)[&MP=100,!color=#ff6fcf,!rotate=false]:0.019633,(Velella_velella[&!color=#ff6fcf,!rotate=false]:0.062645,(Porpita_sp[&!color=#ff6fcf,!rotate=false]:0.030261,Velella_sp[&!color=#ff6fcf,!rotate=false]:0.008993)[&MP=56,!color=#ff6fcf,!rotate=false]:0.008461)[&MP=100,!color=#ff6fcf,!rotate=false]:0.046445)[&MP=98,!color=#ff6fcf,!rotate=false]:0.008557)[&MP=98,!color=#ff6fcf,!rotate=false]:0.007883,Moerisia_sp[&!color=#ff6fcf,!rotate=false]:0.117545)[&MP=73,!color=#ff6fcf,!rotate=false]:0.012608)[&MP=94,!color=#ff6fcf,!rotate=false]:0.010409)[&MP=100,!cartoon={12,0.6212328346957486},!color=#ff6fcf,!rotate=false]:0.01795)[&MP=75,!rotate=false]:0.006528)[&MP=23,!rotate=false]:0.008692,((Apolemia_sp[&!color=#ff0000,!rotate=false]:0.018267,((Physalia_physalis[&!color=#ff0000,!rotate=false]:0.072298,(Praya_dubia[&!color=#ff0000,!rotate=false]:0.020717,(Rosacea_flaccida[&!color=#ff0000,!rotate=false]:0.010461,(((Sulculeolaria_quadrivalvis[&!color=#ff0000,!rotate=false]:0.081594,Clausophyes_ovata[&!color=#ff0000,!rotate=false]:0.038385)[&MP=100,!color=#ff0000,!rotate=false]:0.033792,Hippopodius_hippopus[&!color=#ff0000,!rotate=false]:0.077257)[&MP=74,!color=#ff0000,!rotate=false]:0.014294,(Nectopyramis_natans[&!color=#ff0000,!rotate=false]:0.066276,(Nectadamas_diomedeae[&!color=#ff0000,!rotate=false]:2.0E-6,Nectopyramis_sp[&!color=#ff0000,!rotate=false]:0.001543)[&MP=99,!color=#ff0000,!rotate=false]:0.014596)[&MP=88,!color=#ff0000,!rotate=false]:0.008554)[&MP=28,!color=#ff0000,!rotate=false]:0.002658)[&MP=26,!color=#ff0000,!rotate=false]:6.7E-4)[&MP=88,!color=#ff0000,!rotate=false]:0.007327)[&MP=88,!color=#ff0000,!rotate=false]:0.013706,((Stephalia_dilata[&!color=#ff0000,!rotate=false]:0.018384,(Erenna_sp[&!color=#ff0000,!rotate=false]:0.011625,Stephanomia_amphytridis[&!color=#ff0000,!rotate=false]:0.008372)[&MP=79,!color=#ff0000,!rotate=false]:0.002397)[&MP=84,!color=#ff0000,!rotate=false]:0.005745,(Physophora_hydrostatica[&!color=#ff0000,!rotate=false]:0.037507,((Forskalia_edwardsi[&!color=#ff0000,!rotate=false]:0.040646,Cordagalma_cordiforme[&!color=#ff0000,!rotate=false]:0.055826)[&MP=74,!color=#ff0000,!rotate=false]:0.009232,((Agalma_elegans[&!color=#ff0000,!rotate=false]:0.018547,Halistemma_rubrum[&!color=#ff0000,!rotate=false]:0.010625)[&MP=99,!color=#ff0000,!rotate=false]:0.009895,Nanomia_bijuga[&!color=#ff0000,!rotate=false]:0.024123)[&MP=99,!color=#ff0000,!rotate=false]:0.009495)[&MP=73,!color=#ff0000,!rotate=false]:0.004635)[&MP=86,!color=#ff0000,!rotate=false]:0.007548)[&MP=87,!color=#ff0000,!rotate=false]:0.005934)[&MP=88,!color=#ff0000,!rotate=false]:0.00964)[&MP=100,!cartoon={19,0.5848147061206164},!color=#ff0000,!rotate=false]:0.049623,(((Anthohebella_parasitica[&!color=#ffcc66,!rotate=false]:0.35085,(Tiaropsidium_kelseyi[&!color=#ffcc66,!rotate=false]:0.065557,(Clytia_noliformis[&!color=#ffcc66,!rotate=false]:0.172519,(Eutima_sapinhoa[&!color=#ffcc66,!rotate=false]:0.191047,(((Octophialucium_indicum[&!color=#ffcc66,!rotate=false]:0.014198,Blackfordia_virginica[&!color=#ffcc66,!rotate=false]:0.035841)[&MP=86,!color=#ffcc66,!rotate=false]:0.009505,((Aequorea_victoria[&!color=#ffcc66,!rotate=false]:0.008525,Aequorea_aequorea[&!color=#ffcc66,!rotate=false]:0.007912)[&MP=97,!color=#ffcc66,!rotate=false]:0.008286,Aequorea_floridana[&!color=#ffcc66,!rotate=false]:0.057382)[&MP=55,!color=#ffcc66,!rotate=false]:0.007068)[&MP=100,!color=#ffcc66,!rotate=false]:0.026289,Rhacostoma_atlantica[&!color=#ffcc66,!rotate=false]:0.078956)[&MP=100,!color=#ffcc66,!rotate=false]:0.048114)[&MP=100,!color=#ffcc66,!rotate=false]:0.039161)[&MP=78,!color=#ffcc66,!rotate=false]:0.018356)[&MP=100,!color=#ffcc66,!rotate=false]:0.128178)[&MP=70,!color=#ffcc66,!rotate=false]:0.049485,(Melicertissa_sp[&!color=#ffcc66,!rotate=false]:0.093523,(Halecium_muricatum[&!color=#ffcc66,!rotate=false]:0.117681,((Sertularia_perpusilla[&!color=#ffcc66,!rotate=false]:0.056615,(((Abietinaria_filicula[&!color=#ffcc66,!rotate=false]:0.011094,(Sertularia_cupressina[&!color=#ffcc66,!rotate=false]:0.011695,Thuiaria_thuja[&!color=#ffcc66,!rotate=false]:0.014877)[&MP=95,!color=#ffcc66,!rotate=false]:0.004895)[&MP=100,!color=#ffcc66,!rotate=false]:0.009947,Hydrallmania_falcata[&!color=#ffcc66,!rotate=false]:0.022773)[&MP=100,!color=#ffcc66,!rotate=false]:0.020821,Diphasia_fallax[&!color=#ffcc66,!rotate=false]:0.056497)[&MP=36,!color=#ffcc66,!rotate=false]:0.010865)[&MP=100,!color=#ffcc66,!rotate=false]:0.054412,(((Monostaechas_quadridens[&!color=#ffcc66,!rotate=false]:0.13734,Halopteris_minuta[&!color=#ffcc66,!rotate=false]:0.192445)[&MP=100,!color=#ffcc66,!rotate=false]:0.0662,(Plumularia_hyalina[&!color=#ffcc66,!rotate=false]:0.054965,Nemertesia_antennina[&!color=#ffcc66,!rotate=false]:0.039822)[&MP=100,!color=#ffcc66,!rotate=false]:0.402478)[&MP=100,!color=#ffcc66,!rotate=false]:0.040736,Aglaophenia_tubiformis[&!color=#ffcc66,!rotate=false]:0.086529)[&MP=100,!color=#ffcc66,!rotate=false]:0.033284)[&MP=97,!color=#ffcc66,!rotate=false]:0.028635)[&MP=100,!color=#ffcc66,!rotate=false]:0.147131)[&MP=34,!color=#ffcc66,!rotate=false]:0.020101)[&MP=100,!color=#ffcc66,!rotate=false]:0.036946,(Lafoea_dumosa[&!color=#ffcc66,!rotate=false]:0.055301,Melicertum_octocostatum[&!color=#ffcc66,!rotate=false]:0.054464)[&MP=52,!color=#ffcc66,!rotate=false]:0.010308)[&MP=100,!cartoon={25,0.0},!color=#ffcc66,!rotate=false]:0.033844)[&MP=28,!rotate=false]:0.004831)[&MP=10,!rotate=false]:0.005349)[&MP=96,!rotate=false]:0.009983,(Clavactinia_gallensis[&!rotate=false]:0.089884,(Hydractinia_symbiolongicarpus[&!rotate=false]:0.030451,(Hydractinia_sp[&!rotate=false]:0.015531,(Podocoryna_exigua[&!rotate=false]:0.019597,Clava_multicornis[&!rotate=false]:0.017612)[&MP=94,!rotate=false]:0.007944)[&MP=100,!rotate=false]:0.012933)[&MP=93,!rotate=false]:0.00812)[&MP=55,!rotate=false]:0.005163)[&MP=98,!rotate=false]:0.019377)[&MP=100,!rotate=true]:0.008856)[&MP=100,!rotate=true]:0.008812,Conopora_anthohelia[&!rotate=true]:0.012405)[&!rotate=true];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Abadi MT Condensed Extra Bold";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=228;
+	set legend.attribute="MP";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="Node ages";
+	set nodeLabels.displayAttribute="MP";
+	set nodeLabels.fontName="Abadi MT Condensed Extra Bold";
+	set nodeLabels.fontSize=11;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Abadi MT Condensed Extra Bold";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
