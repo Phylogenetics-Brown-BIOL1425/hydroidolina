@@ -354,20 +354,7 @@ Final ML Optimization Likelihood: -23202.769879
 
 Model Information:
 
-Model Parameters of Partition 0, Name: No Name Provided, Type of Data: DNA
-alpha: 0.462090
-Tree-Length: 28.790199
-rate A <-> C: 1.749154
-rate A <-> G: 6.174722
-rate A <-> T: 3.799152
-rate C <-> G: 0.685110
-rate C <-> T: 11.183511
-rate G <-> T: 1.000000
-
-freq pi(A): 0.396763
-freq pi(C): 0.124418
-freq pi(G): 0.157227
-freq pi(T): 0.321593
+x
 
 
 ML search took 1039.541056 secs or 0.288761 hours
