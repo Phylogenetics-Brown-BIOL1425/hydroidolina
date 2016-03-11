@@ -114,8 +114,12 @@ Questions:
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
 
+No. There are regions with little to no observed changes (runs where all of the bases in a group of columns are the same) while other regions feature a much more diverse mixture of features. These more diverse regions appear to have slower rates of molecular evolution as they have not changed as much. This could also be explained by selection in these regions. Changing these bases could have a negative impact on the protein thus causing the uniform nature. 
+
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+
+The fastest average rate of molecular evolution appears in 28s. The alignment for this one is very mixed and features less conserved bases than the others. It also has more gaps. The slowest rate on the other hand appears to be 18s. For 18s, most columns appear highly conserved and there are less gaps than in 16s. 
 
 ### Create concatenated alignments
 
@@ -157,7 +161,13 @@ Questions:
 
 1. Do the trees differ from those published? If so, how?
 
+overall, the combined tree is able to rebuild the published tree to a large degree. The branches with high bootstrap papers are replicated in the combined tree. It also reproduces the clades in general. The differences come in the placement of low confidence branches and the ordering of some of the clades. The individual trees for each gene, still do a good job in general of reproducing the clades of the original, however, the individual neighbors often differ more. This is particularly true for 28s which had the most changes which makes sense as resolution would be more difficult. Also, the published tree includes some polytomies which can not be reproduced in this which helps explain some of the differences.
+
 2. How do the trees for each gene differ from each other?
+
+As I mentioned above, the trees for each gene, still produce similar clades but the ordering of the actual branches is different as the individual genes don't follow the exact same lineages. Some of the genes also don't have as many samples.
 
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+
+Overall, the models were pretty similar. They all were exceptionally enriched for C <-> T compared to the others. It was particularly interesting that the combined tree seemed to represent the average of the others which makes sense as it is incorporating all of their information. Overall, though the rates seemed the highest in the 16s which means that when I eyeballed it looking at the matrix I was wrong and that more change is occuring in the 16s than 28s. 
