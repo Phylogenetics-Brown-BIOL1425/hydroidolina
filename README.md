@@ -119,7 +119,7 @@ No, the rate of evolution along the genes is dependent on position. There are re
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
 
-At first pass, the 16s gene appears to have undergone more evolution than the others, and the 18s gene appears to have undergone less.
+At first pass, the 16s gene appears to have undergone the most evolution, and the 28s gene appears to have undergone the least.
 
 ### Create concatenated alignments
 
@@ -161,7 +161,13 @@ Questions:
 
 1. Do the trees differ from those published? If so, how?
 
+Looking at the combined best tree and comparing it to the trees published in the paper, the most obvious difference is in the topology. There are two taxa in the best combined tree that are grouped separately from all the rest, while in the published tree there is more clustering. Furthermore, there are specific differences between clustering on the published tree and the combined best tree. For example, in the combined tree, *Zyzzyzus calderi* and *Ralpharia gorgoniae* are placed together in their own clade with aency score of 98. However, in the best combined tree, they are slightly more distant, sharing a clade with *Zyzzyzus warreni* and *Ectopleura dumortieri*.
+
 2. How do the trees for each gene differ from each other?
 
-3. Take a look at the raxml log files. What do these tells you about the 
+One major difference is in branch length. While the 18s and 28s trees seem to agree somewhat for any given taxon, the 16s tree shows a marked difference in branch lengths: an egregious example is *Hippodius hippopus*, which has the distinction of possessing the longest branch on the 16s best tree, but rather short branches on the 18s and 28s trees. Another difference is that some species are not represented on all trees: *Zyzzyzus calderi* is only represented on the 28s tree, though the related *Zyzzyzus warreni* is found on all three.
+
+3. Take a look at the raxml log files. What do these tell you about the 
    different models of molecular evolution for the four analyses?
+
+Each tree analysis had to use different parameters to explain sequence variation, most visibly in their alphas and rates of base interconversion. However, these parameters appear to fall into similar ratios within each gene. The implication is that each has undergone differing rates of evolution, though the mechanism of evolution seems to be somewhat conserved. For example, in order to explain the data for the 16s gene, the rate of pyrimidine interconversion is more than eleven times higher than a basal rate of 1.0. In the other genes, this rate is much lower, but still the largest rate for every gene. In fact, for nearly every rate constant the 16s data requires higher values than the 18s and 28s data, suggesting that evolution is proceeding more rapidly on that gene. An exception may be seen in the C to G interconversion rate, which is roughly similar (and low) in every gene. It is then clear that pyrimidine interconversion is the most prevalent type of mutation acting on the genes, and that evolution acts more quickly on the 16s sequence.
