@@ -113,9 +113,12 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
+   No. When comparing across taxa, there are some parts of each gene that are more conserved, and other regions that display more variability.
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+   I think 18S has the slowest rate of molecular evolution, because it generally has more conserved sequence across taxa.
+   I think 16S has the fastest rate of molecular evolution, as evidenced by the greater degree of dissimilarity of sequences across taxa compared to 18S or 28S.
 
 ### Create concatenated alignments
 
@@ -156,8 +159,13 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
+There are some differences, but initially it is difficult to tell how dissimilar/similar the trees are because the clades are not oriented the same way as in the paper. Also, the bootstrap values for the 3 trees sometimes differ compared to the paper's tree. The 18s tree has more pronounced differences; for example, Rosacea flaccida, Nectopyramis, and Nectadamas diomedeae are less nested with other taxa.
+
 
 2. How do the trees for each gene differ from each other?
+One of the most noticeable differences is that sequence data is not available for all 3 genes for all species, so some species are absent from trees. The bootstrap values also differ slightly between trees. Species do tend to cluster together similarly, although for the 18S tree there are several species less “clustered” within the tree compared to the topology of other trees: Rosacea flaccida, Nectadamas diomedeae, Nectopyramis sp, Apolomia sp, and Physalia physalis.
+
 
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+   These log files tell me the different parameters of the GTR (rate A<->C, etc), the frequencies of the 4 nucleotides (freq pi(A), etc.), the tree length, and the shape of the data distribution (alpha). All of these values differ across the 4 analyses. Particularly with the rates of nucleotide changes, the rates for the 16S tree were higher than for the other gene trees; given that this gene was predicted to have the greatest rate of molecular evolution (above), this makes sense.
