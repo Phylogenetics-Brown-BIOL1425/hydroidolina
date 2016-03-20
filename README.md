@@ -113,9 +113,12 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
+No, it seems like some areas might have higher substitution rates than others, since all of the genes have at least a few chunks where you can see the base pairs are changing pretty frequently among taxa.
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+It looks like 16s is probably the fastest because it seems to have a lot of subsitutions happening along almost the entire length of the gene -- just from doing the bird's eye view and examining the way the colors of each of the base pairs lined up for all of the taxa there are relatively few areas that seem uniform throughout. On the other hand, it seems like 18s is the slowest, because the bases seem to be pretty uniform for most taxa, except in very few spots.
+
 
 ### Create concatenated alignments
 
