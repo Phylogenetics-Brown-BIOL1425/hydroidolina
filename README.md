@@ -113,9 +113,12 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
+No, it seems like some areas might have higher substitution rates than others, since all of the genes have at least a few chunks where you can see the base pairs are changing pretty frequently among taxa.
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+It looks like 16s is probably the fastest because it seems to have a lot of subsitutions happening along almost the entire length of the gene -- just from doing the bird's eye view and examining the way the colors of each of the base pairs lined up for all of the taxa there are relatively few areas that seem uniform throughout. On the other hand, it seems like 18s is the slowest, because the bases seem to be pretty uniform for most taxa, except in very few spots.
+
 
 ### Create concatenated alignments
 
@@ -156,8 +159,11 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
+Yes, they're a little bit different. It seems like most of the major clades still grouped up, but some things that were sister in one phylogeny weren't in the other. 
 
 2. How do the trees for each gene differ from each other?
+The trees for each gene seem to have pretty different branch lengths as the most obvious difference (there are differences in topology but the branch lengths are the most glaring thing). This makes sense, though, looking back to the questions we had to answer with the alignments, since it seemed like the genes weren't all evolving at the same rate. 
 
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+This section shows the rates of transition from any nucelotide to another for each gene and for the combined. The analysis for the combined tree didn't seem to have very high rates overall, while the 16s seemed to have higher rates, and the other two genes (18s and 28s) both seemed a bit lower again. This makes sense with the alignment answers from before because just from eyeballing the allignment it seemed like the 16s had the fastest rates of molecular evolution, and this file seems to confirm that was true. 
