@@ -159,8 +159,11 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
+Yes, they're a little bit different. It seems like most of the major clades still grouped up, but some things that were sister in one phylogeny weren't in the other. 
 
 2. How do the trees for each gene differ from each other?
+The trees for each gene seem to have pretty different branch lengths as the most obvious difference (there are differences in topology but the branch lengths are the most glaring thing). This makes sense, though, looking back to the questions we had to answer with the alignments, since it seemed like the genes weren't all evolving at the same rate. 
 
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+This section shows the rates of transition from any nucelotide to another for each gene and for the combined. The analysis for the combined tree didn't seem to have very high rates overall, while the 16s seemed to have higher rates, and the other two genes (18s and 28s) both seemed a bit lower again. This makes sense with the alignment answers from before because just from eyeballing the allignment it seemed like the 16s had the fastest rates of molecular evolution, and this file seems to confirm that was true. 
