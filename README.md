@@ -113,9 +113,13 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
+	
+	It seems unlikely that each gene has a consistent rate of molecular evolution along its length. Each of the three genes display regions of relative stability (in which most taxa have the same base at a particular locus), and regions in which loci have variable base among taxa. I interpret the stable regions to represent regions of slow molecular evolution (so different taxa have similar character states), and variable regions to represent those with rapid molecular evolution (causing taxa to differ markedly). Since both types of region are found in each gene, I find the idea that they have consistent rates of molecular evolution unlikely.
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+
+	Using the approximate ratio of variable sites to stable sites as a proxy for rate of molecular evolution, I would identify 16S as the gene with the fastest average rate of molecular evolution, and 18S as the gene with the slowest average rate of molecular evolution. In 16S, stable sites are rare relative to variable sites; the reverse is true in 18S. 28S seems to have approximately even numbers of variable and stable sites, and thus likely has an intermediate rate of molecular evolution. However, it is possible that differences in the length of the sequences are biasing my assessment; it would be much more reliable to have Mesquite or another program calculate the rates of evolution in the 3 genes.
 
 ### Create concatenated alignments
 
@@ -157,7 +161,18 @@ Questions:
 
 1. Do the trees differ from those published? If so, how?
 
+	The trees do differ from those published. The combined tree (which should be most directly comparable to the published tree, as both represent the combination of data from the 3 genes), shows substantial differences in taxon and clade placement. For instance, my combined tree places Hydractina symbiolongicarpus and Clavactinia gallensis apart from the clade Filifera III on branches of their own, but on the published tree both species are nested within Filifera III. The relationships within clades does not vary much between the combined tree and the published tree; however, the relationships of the clades with each other show significant variation. For instance, my combined tree places the clade Trachylina (with identical topology as to the published version of Trachylina) as a fairly derived clade with sister clade Capitata, while the published tree places it as the sister to all other taxa. My combined tree also places Trachylina, Capitata, and Aplanulata as a clade sister to (Siphonphorae + Leptothecata), while the prior three clades are not closely related in the published tree. However, in some respects the two trees are quite similar; for instance, Siphonophorae and Leptothecata are recovered as sisters in both.
+
 2. How do the trees for each gene differ from each other?
+
+	The topologies of the gene trees differ substantially from each other. While the clades described above are generally well-supported, the taxa that fall within these clades can vary. For instance, 16s places Turritopsis sp. and Turritopsis dohrnii outside of Gonoproxima, and not as sister taxa; this arrangement contrasts with the other gene trees in both respects. The interrelationships of clades varies from gene tree to gene tree as well; 28s places Gonoproxima and Leptothecata as sister clades, while 18s considers Leptothecata as basal to Gonoproxia and 16s places Gonoproxima as basal to Leptothecata. The clade Siphonophorae also varies in position between the trees, and in one (16s) is not supported at all - it is instead represented as a paraphyletic assemblage leading to the other clades. One notable topological similarity exists between 18s and 28s - both trees showcase a single long-branched clade (Leptothecata) with similar topology (however, more taxa are included in Leptothecata in the latter tree).
+
+	The trees also vary with regard to their branch lengths. All 3 trees display mostly short branches, but the number of taxa at the end of long branches varies between them. 16s shows 4 different long branch clades, 3 of which have only one or two members. As mentioned above, 18s and 28s are distinct from 16s but similar to each other, with Leptothecata as the only long-branch clade. The members of Leptothecata are entirely different from those of 16s's speciose long branch. The individual gene trees show substantial obvious differences in both tree topology and the lengths of individual bipartitions.
 
 3. Take a look at the raxml log files. What do these tells you about the 
    different models of molecular evolution for the four analyses?
+
+	The RAxML log files show that the models of molecular evolution used in the four analyses had different parameters, both in regard to nucleotide substitution rate and the equilibrium frequencies of each base. Nucleotide substitution rates are generally highest in 16s and lowest in 28s, with intermediate slightly greater than those of 28s in 18s. The equilibrium frequencies for A and T in 16s are greater than those of G and C; in the other two gene trees, these values are all more similar. Overall, the log files suggest that the rate of genomic evolution is greater in 16s than in the other two genes, and that A and T bases are overrepresented compared to G and C bases in 16s (but not in 18s or 28s).
+
+	The log file for the combined tree shows values intermediate between those in 28s and those in 16s. The rates of nucleotide evolution and equilibirum frequencies of different bases in the combined tree are overall intermediate between the extremes found in the different gene tree, and are most similar to those found in the 18s tree. This makes intuitive sense; the combined tree, being affected by both extremes, would be expected to assume relatively intermediate values. Since 18s and 28s tended to be very similar, the combined tree would also be expected to fall farther toward 28s's extreme than to 16s's extreme.
+
