@@ -113,9 +113,11 @@ Questions:
 
 1. Based on eye-balling the alignments, do you think that each gene has a 
    consistent rate of molecular evolution along its full length?
+Eye-balling the alignments, each gene has likely not had a consistent rate of molecular evolution along its full length. Certain stretches of each gene are completely aligned, while other sections are not as aligned, and this varies across the entire length of each gene. This indicates that certain regions have undergone higher rates of molecular evolution than others, as the sections that are not as aligned have undergone a higher rate of molecular evolution than the sections more aligned to result in the less aligned state. 
 
 2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
    the fastest average rate of molecular evolution? The slowest?
+Gene 16S has had the fastest average rate of molecular evolution, while gene 18S has had the slowest average rate of molecular evolution. Eye-balling the alignments, gene 16S has the most number of areas along its entire stretch with low alignment, whereas gene 18S has the least number of areas along its entire stretch with low alignment, indicating that gene 16S likely has the fastest average rate of molecular evolution, and gene 18S the slowest. 
 
 ### Create concatenated alignments
 
@@ -156,8 +158,13 @@ Once the run is complete (you can check the status with `myq`), add the new file
 Questions:
 
 1. Do the trees differ from those published? If so, how?
+The combined tree contains as its outgroup the taxon “Olindias Sambaquiensis”, and so the four trees were compared by making that as the outgroup for the other three trees. The tree for 16s does not contain this taxon, however, and so to compare this tree with the others I looked for the same taxa and the presence of similar clades between the different trees and tried to observe similarities. 
+
+The trees do differ from the published ones. They differ in the bootstrap values obtained for clades showing the same relationships. They also differ in the relationships themselves, with the common ancestor between any two organisms differing between the published and the analyzed tree. The combined tree and the three gene trees that were obtained also differ from the published one in being calibrated with the amount of character changes observed along each branch (in being a phylogram) and illustrating this with branch length, which the published tree does not do.
 
 2. How do the trees for each gene differ from each other?
+The trees for each gene differ in the bootstrap values for clades, the relationships of the taxa, and the length of the branches. The trees for 18s and 28s were more similar to each other than to 16s at glance, with similar taxa exhibiting similar rates of evolution and similar taxa clustering together as clades between the two trees (i.e. Nemertesia antennina and Pulmularia hyalina are sister taxa in the 16s, 18s, 28s and combined, and had a most recent common ancestor that had undergone significant evolution in 18s, 28s and combined). The trees were additionally different in the taxa being considered—some taxa were considered in one gene tree, but were not present in another gene tree. This also led to the combined containing the most number of taxa. In general, although there were similarities in relationships, clades and evolutionary rates here and there, the trees differed in many points on the relationships, bootstrap values for similar clades, and in the evolutionary rates.
 
 3. Take a look at the raxml log files. What do these tells you about the 
-   different models of molecular evolution for the four analyses?
+   different models of molecular evolution for the four analyses? 
+The files show that the four analyses utilized models with different substitution rates and frequencies of the nucleotide bases. All four had the highest substitution rates for transitions (A <—> G and C <—> T), but the values for the rates themselves varied between the four analyses. The values for all four of the transversions varied between the four analyses. The only constant was the value for the G <—> T substitution rate, which was set at 1.000000 for all four analyses. The models each had different frequencies for the four nucleotide bases, and the order from most to least frequent bases was different as well. The value for alpha was different between all four analyses too, with the lowest value for 18s and the highest value for 16s. The time taken to perform the phylogenetic analyses (bootstrapping and maximum likelihood) differed between all four trees. The log files provided all of this information under the section “Model Parameters of Partition 0” for all of the trees obtained.  
