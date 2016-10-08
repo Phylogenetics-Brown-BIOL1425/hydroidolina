@@ -109,13 +109,17 @@ file with mafft and inspect it again.
 
 You should now have five files for each gene, eg `28s.raw.fasta`, `28s.fasta`, `28s.aligned.fasta`, `28s.nex` and `28s.phy`.
 
-Questions:
+#Questions:
 
-1. Based on eye-balling the alignments, do you think that each gene has a 
-   consistent rate of molecular evolution along its full length?
+1. **Based on eye-balling the alignments, do you think that each gene has a 
+   consistent rate of molecular evolution along its full length?**
+   
+   None of the genes seem to have a truly consistent rate of evolution throughout the entirety of the molecule. This seems to be a reflection of the biology of these genes. Since RNA genes have tri-dimensional structures some regions will have stronger functional constrains than others. 
 
-2. Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
-   the fastest average rate of molecular evolution? The slowest?
+2. **Based on eye-balling the alignments, which gene (16S, 18S, or 28S) do you think has 
+   the fastest average rate of molecular evolution? The slowest?**
+   
+   The 16S gene seems to have a very fast rate of molecular evolution, given the high rate of indels and mismatch among species. Both 18S and 28S seem to have a slow rate of molecular evolution, it seems to me (i.e. eye balling), that 18S has the slowest rate of evolution. 
 
 ### Create concatenated alignments
 
@@ -155,9 +159,80 @@ Once the run is complete (you can check the status with `myq`), add the new file
 
 Questions:
 
-1. Do the trees differ from those published? If so, how?
+#1 - Do the trees differ from those published? If so, how?
 
-2. How do the trees for each gene differ from each other?
+###Combined Tree:
 
-3. Take a look at the raxml log files. What do these tells you about the 
-   different models of molecular evolution for the four analyses?
+Both the published and the generated trees seem to agree on the reconstruction of the groups, *i.e.* Trachylina, Capitata, Aplanulata, Filifera I, II, III and IV, Siphonophora and Leptothecata (Figure 1). All these groups show high branch support close the bifurcations leading to the tips. However, bootstrap support dwindles away from the tips on the branches within the major splits of the Filifera groups (Figure 2) 
+
+A major discordancy between the published and recently produced tree occurs in the placement of the Aplanulata clade with respect to the Filifera groups. In the published paper, Aplanulata is nested as sister taxa to Filifera II. In the produced tree, Aplanulata is sister taxa to the Filifera/Siphonophora/Leptothecata clade. The branch leading to this split has a support of 75 (Figures 1 & 2). Moreover, in contrast to the published tree, all filiferas are part of a  "filifera clade". The branch support of the branch leading to this clade is very low (10).
+
+Please note that the tree produced in this exercise has been rooted using the branch leading to Trachylina in order to compare it to the published tree. 
+
+
+![Figure 1. Estimated Phylogenetic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined_taxa_groups.png "Figure 1 2016 phylogeny - combined - with groups collapsed")
+**Figure 1: 2016 phylogeny - combined - with groups collapsed. In this and further figures, Olive = Trachylina, Teal = Capitata, Brown = Aplanulata, Green = Filera I, Maroon = Filifera II, Purple = Filifera IV, Orange = Filifera III, Blue = Siphonophora, Salmon = Leptothecata**
+
+![Figure 2. Estimated Phylogenetic - Combined](https://rawgit.com/Jcbnunez/hydroidolina/master/combined.png "Figure 2 2016 phylogeny - combined showing all branches")
+**Figure 2: 2016 phylogeny - combined showing all branches**
+
+###16s Tree:
+
+Compared to the published tree, only the Trachylina, Capitata and Aplanulata are reconstructed as clades. All other clades  are not reconstructed (Figure 3A).
+
+###18s Tree:
+
+Compared to the published tree, the 18s ribosomal gene tree reconstruct the clades: Siphonophora, Leptothecata, Trachylina, and Filifera III (Figure 3B). 
+
+###28s Tree:
+
+Compared to the published tree, the 28s ribosomal gene tree reconstructs most clades exept, Filifera IV (Figure 3C). It is the most similar to the published compound tree.  
+
+
+#2 - How do the trees for each gene differ from each other?
+
+Gene trees for 16s, 18s and 28s ribosomal genes were generated in this assignment (Figure 3). 
+
+###16s and 18s 
+
+Compared to each other, no clade is consistently reconstructed (Fig 3A and 3B). 
+
+###16s and 28s 
+
+Compared to each other, only the clade Filifera I is reconstructed (Fig 3A and 3C). 
+
+###18s and 28s 
+
+Compared to each other, clades Siphonophora, Leptothecata, Capitata, Filifera III, and Aplanulata are reconstructed. These two trees are more similar to each other than to 16s (Fig 3B and 3C). 
+
+
+![Figure 3. Gene trees](https://rawgit.com/Jcbnunez/hydroidolina/master/gene_trees.png "Figure 3 2016 Gene Trees")
+**Figure 3: All gene trees of A = 16s, B = 18s and C = 28s.**
+
+#3 - Take a look at the raxml log files. What do these tells you about the different models of molecular evolution for the four analyses?
+
+**Notes on Parameters in raxml log:**
+
+
+All free model parameters were estimated by RAxML for each run:  GAMMA model of rate heterogeneity, ML estimate of alpha-parameter. GAMMA Model parameters were  estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Substitution Matrix: GTR per run
+
+| Parameter    | Combined | 16s       | 18s      | 28s      |
+|--------------|----------|-----------|----------|----------|
+| alpha        | 0.253321 | 0.46209   | 0.201546 | 0.238754 |
+| Tree-Length  | 8.219909 | 28.790199 | 3.716563 | 8.26401  |
+| rate A <-> C | 0.8068   | 1.749154  | 1.391922 | 0.574413 |
+| rate A <-> G | 2.608071 | 6.174722  | 2.947877 | 2.072312 |
+| rate A <-> T | 1.911118 | 3.799152  | 1.282143 | 0.6676   |
+| rate C <-> G | 0.900656 | 0.68511   | 0.986484 | 0.724368 |
+| rate C <-> T | 5.287369 | 11.183511 | 6.546998 | 4.551401 |
+| rate G <-> T | 1        | 1         | 1        | 1        |
+| freq pi(A)   | 0.277945 | 0.396763  | 0.269513 | 0.263767 |
+| freq pi(C)   | 0.195911 | 0.124418  | 0.194606 | 0.207798 |
+| freq pi(G)   | 0.2646   | 0.157227  | 0.260255 | 0.283709 |
+| freq pi(T)   | 0.261544 | 0.321593  | 0.275625 | 0.244726 |
+
+**Table: 1 parameters of each raxml run**
+
+In Summary, all phylogenies were estimated using the GTR-GAMMA model. However, for each individual phylogeny, raxml estimated parameters for each individual run (Table 1). An interesting observation is that the rate G <-> T is equal in all runs. 

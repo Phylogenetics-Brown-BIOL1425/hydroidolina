@@ -10,8 +10,8 @@
 #SBATCH -J MyMPIJob
 
 # Specify an output file
-#SBATCH -o MyMPIJob-%j.out
-#SBATCH -e MyMPIJob-%j.out
+#SBATCH -o /users/jnunez/scratch/phylogenetics/hydroidolina/MyMPIJob-%j.out
+#SBATCH -e /users/jnunez/scratch/phylogenetics/hydroidolina/MyMPIJob-%j.out
 
 # Run a command
 
@@ -19,4 +19,7 @@ module load raxml
 
 mpirun -n 8 raxmlHPC-MPI  -f a -x 12345 -p 12345 -N 100 -m GTRGAMMA -s combined.phy -n combined_boot100
 mpirun -n 8 raxmlHPC-MPI  -f a -x 12345 -p 12345 -N 100 -m GTRGAMMA -s 16s.phy -n 16s_boot100
+mpirun -n 8 raxmlHPC-MPI  -f a -x 12345 -p 12345 -N 100 -m GTRGAMMA -s 18s.phy -n 18s_boot100
+mpirun -n 8 raxmlHPC-MPI  -f a -x 12345 -p 12345 -N 100 -m GTRGAMMA -s 28s.phy -n 28s_boot100
+
 

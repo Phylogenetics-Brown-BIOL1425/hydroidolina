@@ -1,0 +1,12 @@
+starting log: 03/03/16 02:07
+concat
+in filename: 16s.aligned.fasta
+in filename: 18s.aligned.fasta
+in filename: 28s.aligned.fasta
+outfile: combined.nex
+starting log: 03/03/16 02:43
+concat
+in filename: 16s.aligned.fasta
+in filename: 18s.aligned.fasta
+in filename: 28s.aligned.fasta
+outfile: combined.nex
